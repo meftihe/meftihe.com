@@ -4,6 +4,7 @@
     <Header />
     <main>
       <Testimonials />
+      <Services />
     </main>
   </div>
 </template>
