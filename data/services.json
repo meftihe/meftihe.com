@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "/assets/img/icons/serv_icons/10.png",
+    "title": "IT Consultation",
+    "details": "We provide best IT solutions for any type of business as stragegy, management."
+  },
+  {
+    "icon": "/assets/img/icons/serv_icons/11.png",
+    "title": "Software Development",
+    "details": "We bring methods for design and development as website, mobile app, etc"
+  },
+  {
+    "icon": "/assets/img/icons/serv_icons/12.png",
+    "title": "Data Security",
+    "details": "Analys & Management Big Data alway big issue of companies management."
+  },
+  {
+    "icon": "/assets/img/icons/serv_icons/13.png",
+    "title": "AI Machine Learning",
+    "details": "Turn AI & Machine Learning in the life. Enhance the quality and the effeciency"
+  }
+]

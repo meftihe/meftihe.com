@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: [
-    '~/assets/lib/bootstrap/css/bootstrap.min.css',
+    '~/assets/css/lib/bootstrap-icons.css',
+    '~/assets/css/lib/bootstrap.min.css',
     '~/assets/css/style.css',
   ],
   app: {
@@ -10,7 +11,7 @@ export default defineNuxtConfig({
       meta: [{ charset: 'utf-8' }],
       script: [
         {
-          src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js',
+          src: '~/assets/js/lib/bootstrap.bundle.min.js',
           type: 'text/javascript',
         },
       ],
@@ -18,4 +19,5 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   ssr: true,
+  modules: ['nuxt-swiper'],
 });

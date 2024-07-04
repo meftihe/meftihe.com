@@ -1,0 +1,64 @@
+{
+  "blogs": [
+    {
+      "cover": "/assets/img/blog/6.png",
+      "type": "tips & tricks",
+      "time": "12 Days ago",
+      "title": "How To Become A Python Develop Expert",
+      "userImage": "a",
+      "username": "Admin",
+      "comments": "24",
+      "views": "774k"
+    },
+    {
+      "cover": "/assets/img/blog/7.png",
+      "type": "News",
+      "time": "5 Days ago",
+      "title": "AI With Fingerprint",
+      "userImage": "a",
+      "username": "David",
+      "comments": "24",
+      "views": "774k"
+    },
+    {
+      "cover": "/assets/img/blog/8.png",
+      "type": "tips & tricks",
+      "time": "1 month ago",
+      "title": "Solutions For Big Data Issue, Expert Perspective",
+      "userImage": "a",
+      "username": "Moussa",
+      "comments": "24",
+      "views": "774k"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How Benefit That I Got When Choose Basic Plan?",
+      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+    },
+    {
+      "question": "Can I Pay With Paypal or Payoneer?",
+      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+    },
+    {
+      "question": "How Long For A Standard Project?",
+      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+    },
+    {
+      "question": "How About Data Security & NDA Agreement?",
+      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+    },
+    {
+      "question": "Can We Make An Own Tailored-AI ?",
+      "answer": "Through the collaboration with customers in discussing needs and demand, we're able to attain mutual understanding, gain customer trust to offer appropriate advice"
+    }
+  ],
+  "clients": [
+    "/assets/img/logos/1.png",
+    "/assets/img/logos/2.png",
+    "/assets/img/logos/3.png",
+    "/assets/img/logos/4.png",
+    "/assets/img/logos/5.png",
+    "/assets/img/logos/6.png"
+  ]
+}
