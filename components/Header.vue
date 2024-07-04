@@ -19,15 +19,15 @@
               <form action="contact.php" class="form mt-30" method="post">
                 <div class="row gx-3">
                   <div class="col-6">
-                    <div class="form-group input-with-icon">
+                    <div class="d-inline-flex form-group input-with-icon">
                       <input
                         type="text"
                         class="form-control"
                         placeholder="Your Email *"
                       />
-                      <span class="input-icon"
-                        ><i class="far fa-envelope"></i
-                      ></span>
+                      <span class="input-icon">
+                        <Icon name="bi:envelope" class="me-1"></Icon>
+                      </span>
                     </div>
                   </div>
                   <div class="col-6">

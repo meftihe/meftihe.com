@@ -60,8 +60,16 @@
                 latest tech capabilities to stay ahead of the curve.
               </div>
               <ul>
-                <li v-for="(feature, index) in aboutData.features" :key="index">
-                  <i class="bi bi-star-fill me-3"></i> {{ feature }}
+                <li
+                  v-for="(feature, index) in aboutData.features"
+                  :key="index"
+                  class="d-inline-flex align-items-center"
+                >
+                  <Icon
+                    name="material-symbols:kid-star-sharp"
+                    class="me-2 color-blue4"
+                  ></Icon>
+                  {{ feature }}
                 </li>
               </ul>
               <NuxtLink

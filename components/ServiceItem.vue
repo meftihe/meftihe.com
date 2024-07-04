@@ -9,9 +9,13 @@
         <div class="text">
           {{ service?.details }}
         </div>
-        <NuxtLink to="/page-portfolio-5"
-          ><span>see projects</span> <i class="bi bi-chevron-right ms-1"></i
-        ></NuxtLink>
+        <NuxtLink
+          to="/page-portfolio-5"
+          class="d-inline-flex align-items-center"
+        >
+          <span>see projects</span>
+          <Icon name="bi:chevron-right" class="ms-1"></Icon>
+        </NuxtLink>
       </div>
     </div>
   </div>
