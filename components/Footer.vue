@@ -76,10 +76,9 @@
           </div>
           <div class="col-lg-6 d-flex justify-content-center">
             <small class="small d-inline-flex align-items-center">
-              <Icon name="solar:copyright-linear"></Icon> 2024 Copyrights by
-              <a href="#" class="fw-bold text-decoration-underline ms-1"
-                >Gracesoft</a
-              >
+              <Icon name="solar:copyright-linear"></Icon> 2024
+              <a href="#" class="fw-bold ms-1 me-1">Gracesoft IT solutions.</a>
+              All rights reserved.
             </small>
           </div>
         </div>
