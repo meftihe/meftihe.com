@@ -8,6 +8,7 @@
       <About />
       <Projects />
       <Team />
+      <Blog />
     </main>
   </div>
 </template>

@@ -3,9 +3,13 @@
     <div class="container">
       <div class="section-head style-3 d-flex align-items-center">
         <h3>Our Main <span>Services</span></h3>
-        <NuxtLink to="/page-services-5" class="text-muted ms-5 ps-5 mt-2"
-          >See full services <i class="bi bi-chevron-right ms-1"></i
-        ></NuxtLink>
+        <NuxtLink
+          to="/page-services-5"
+          class="d-inline-flex align-items-center text-muted ms-5 ps-5 mt-2"
+        >
+          See full services
+          <Icon name="bi:chevron-right" size="20" class="ms-1"></Icon>
+        </NuxtLink>
       </div>
       <div class="row">
         <ServiceItem

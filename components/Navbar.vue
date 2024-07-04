@@ -146,7 +146,7 @@
         <div class="nav-side">
           <div class="d-flex ps-4">
             <a href="#" class="search-icon me-5">
-              <i class="bi bi-search"></i>
+              <Icon name="bi:search" class="text-white"></Icon>
             </a>
             <div
               class="dropdown"
