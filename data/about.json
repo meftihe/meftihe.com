@@ -1,0 +1,26 @@
+{
+  "numbers": [
+    {
+      "value": "1,2k",
+      "title": "Projects done"
+    },
+    {
+      "value": "165",
+      "title": "satisfied clients"
+    },
+    {
+      "value": "26",
+      "title": "awards winner"
+    },
+    {
+      "value": "15",
+      "title": "years of experience"
+    }
+  ],
+  "features": [
+    "Latest IT Solutions & Integration With Blockchain",
+    "Over 100+ Payment Gateways Support",
+    "AI Machine & Deep Learning",
+    "Dedicated Support 24/7"
+  ]
+}

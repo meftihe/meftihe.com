@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Standard",
+    "description": "Basic features",
+    "price": "$29",
+    "features": [
+      "3 Projects",
+      "6 Months Support & SEO",
+      "Basic Dashboard"
+    ]
+  },
+  {
+    "title": "Pro",
+    "recommended": true,
+    "description": "Premium features",
+    "price": "$59",
+    "features": [
+      "Unlimited Projects",
+      "Lifetime Support & SEO Experts Consult",
+      "Advance Dashboard",
+      "Data Security & Backup",
+      "Cloud Hosting & Domain"
+    ]
+  }
+]
