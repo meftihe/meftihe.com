@@ -1,6 +1,6 @@
 <template>
   <div>
     <Navbar />
-    <h2>Homepage</h2>
+    <Header />
   </div>
 </template>

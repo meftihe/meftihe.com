@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ['bootstrap/dist/css/bootstrap.min.css'],
+  css: [
+    '~/assets/lib/bootstrap/css/bootstrap.min.css',
+    '~/assets/css/style.css',
+  ],
   app: {
     head: {
       title: 'My Awesome App',
