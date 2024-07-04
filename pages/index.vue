@@ -9,6 +9,8 @@
       <Projects />
       <Team />
       <Blog />
+      <ChatBanner />
     </main>
+    <Footer />
   </div>
 </template>
