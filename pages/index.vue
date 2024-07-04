@@ -7,6 +7,7 @@
       <Services />
       <About />
       <Projects />
+      <Team />
     </main>
   </div>
 </template>

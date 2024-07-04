@@ -19,5 +19,5 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   ssr: true,
-  modules: ['nuxt-swiper'],
+  modules: ['nuxt-swiper', "@nuxt/icon"],
 });
