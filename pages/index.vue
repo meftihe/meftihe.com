@@ -6,6 +6,7 @@
       <Testimonials />
       <Services />
       <About />
+      <Projects />
     </main>
   </div>
 </template>
