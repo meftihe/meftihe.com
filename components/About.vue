@@ -37,7 +37,7 @@
                 etc.
               </div>
               <NuxtLink
-                to="/page-about-5"
+                to="#"
                 class="btn rounded-pill bg-blue2 sm-butn text-white"
               >
                 <span>More About Us</span>
@@ -73,7 +73,7 @@
                 </li>
               </ul>
               <NuxtLink
-                to="/page-about-5"
+                to="#"
                 class="btn rounded-pill border-blue2 hover-blue2 mt-60 sm-butn"
               >
                 <span>How We Works</span>

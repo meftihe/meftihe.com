@@ -13,13 +13,13 @@
         <div class="col-lg-5">
           <div class="bttns text-end">
             <NuxtLink
-              to="/page-contact-5"
+              to="#"
               class="btn rounded-pill bg-white border-1 border-white text-dark sm-butn me-2"
             >
               <span>Let’s Chat</span>
             </NuxtLink>
             <NuxtLink
-              to="/page-contact-5"
+              to="#"
               class="btn rounded-pill border-1 border-white text-white sm-butn"
             >
               <span>Get Information</span>

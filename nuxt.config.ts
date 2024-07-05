@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       meta: [{ charset: 'utf-8' }],
       script: [
         {
-          src: '~/assets/js/lib/bootstrap.bundle.min.js',
+          src: '_nuxt/assets/js/lib/bootstrap.bundle.min.js',
           type: 'text/javascript',
         },
       ],
@@ -19,5 +19,5 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   ssr: true,
-  modules: ['nuxt-swiper', "@nuxt/icon"],
+  modules: ['nuxt-swiper', '@nuxt/icon'],
 });

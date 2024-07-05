@@ -6,9 +6,7 @@
           <div class="blog-content">
             <div class="section-head style-3 d-flex align-items-center mb-50">
               <h3>Iteck’s <span>Journal</span></h3>
-              <NuxtLink
-                to="/page-blog-5"
-                class="d-inline-flex text-muted ms-5 ps-5 mt-2"
+              <NuxtLink to="#" class="d-inline-flex text-muted ms-5 ps-5 mt-2"
                 >All Articles
                 <Icon
                   name="material-symbols-light:chevron-right bi ms-1"
@@ -25,7 +23,7 @@
             >
               <div class="row align-items-center">
                 <div class="col-lg-4">
-                  <NuxtLink to="/page-single-post-5" class="img img-cover">
+                  <NuxtLink to="#" class="img img-cover">
                     <img :src="post.cover" class="radius-2" alt="..." />
                   </NuxtLink>
                 </div>
@@ -41,9 +39,7 @@
                       <a href="#" class="op-8">{{ post.time }}</a>
                     </small>
                     <h6 class="card-title">
-                      <NuxtLink to="/page-single-post-5">{{
-                        post.title
-                      }}</NuxtLink>
+                      <NuxtLink to="#">{{ post.title }}</NuxtLink>
                     </h6>
                     <div
                       class="d-flex small mt-20 align-items-center justify-content-between op-9"
@@ -111,7 +107,7 @@
                 </div>
               </div>
               <NuxtLink
-                to="/page-contact-5"
+                to="#"
                 class="d-inline-flex align-items-center text-muted text-uppercase mt-50 small"
               >
                 See More

@@ -3,18 +3,51 @@
   "phone": "+031 5689 89 98",
   "email": "contact@Itecksolution.co",
   "usefulLinks": [
-    { "link": "/home-saas-technology", "title": "Home" },
-    { "link": "/page-about-5", "title": "About Iteck" },
-    { "link": "/page-portfolio-5", "title": "Projects" },
-    { "link": "/page-about-5", "title": "How It Works" },
-    { "link": "/page-blog-5", "title": "Blog" },
-    { "link": "/page-contact-5", "title": "Contact" }
+    {
+      "link": "#",
+      "title": "Home"
+    },
+    {
+      "link": "#",
+      "title": "About Iteck"
+    },
+    {
+      "link": "#",
+      "title": "Projects"
+    },
+    {
+      "link": "#",
+      "title": "How It Works"
+    },
+    {
+      "link": "#",
+      "title": "Blog"
+    },
+    {
+      "link": "#",
+      "title": "Contact"
+    }
   ],
   "services": [
-    { "link": "/page-services-5", "title": "It Consultation" },
-    { "link": "/page-services-5", "title": "Software Development" },
-    { "link": "/page-services-5", "title": "AI Machine Learning" },
-    { "link": "/page-services-5", "title": "Data Security" },
-    { "link": "/page-services-5", "title": "Cloud Services" }
+    {
+      "link": "#",
+      "title": "It Consultation"
+    },
+    {
+      "link": "#",
+      "title": "Software Development"
+    },
+    {
+      "link": "#",
+      "title": "AI Machine Learning"
+    },
+    {
+      "link": "#",
+      "title": "Data Security"
+    },
+    {
+      "link": "#",
+      "title": "Cloud Services"
+    }
   ]
 }
