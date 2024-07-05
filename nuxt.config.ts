@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/lib/bootstrap-icons.css',
     '~/assets/css/lib/bootstrap.min.css',
+    '~/assets/css/lib/all.min.css',
     '~/assets/css/style.css',
   ],
   app: {
