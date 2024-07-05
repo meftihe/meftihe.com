@@ -33,13 +33,13 @@
       </div>
       <div class="bttns mt-4 text-center mt-50">
         <NuxtLink
-          to="/page-about-5"
+          to="#"
           class="btn rounded-pill bg-blue2 sm-butn mx-1 text-white"
         >
           <span>See All Team</span>
         </NuxtLink>
         <NuxtLink
-          to="/page-contact-5"
+          to="#"
           class="btn rounded-pill border-blue2 hover-blue2 sm-butn mx-1"
         >
           <span>Join Our Team</span>

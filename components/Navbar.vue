@@ -37,53 +37,14 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
               <li>
-                <NuxtLink to="/" class="dropdown-item"
-                  >Landing Preview</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item"> Data Analysis</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/home-it-solutions2" class="dropdown-item">
-                  Creative It Solutions</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item">App Landing</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/home-data-analysis" class="dropdown-item">
-                  Data Analysis</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-app-landing" class="dropdown-item"
-                  >App Landing</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-saas-technology" class="dropdown-item"
-                  >Saas Technology</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-marketing-startup" class="dropdown-item"
-                  >Marketing Startup</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-it-solutions" class="dropdown-item"
-                  >It Solution</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-software-company" class="dropdown-item"
+                <NuxtLink to="#" class="dropdown-item"
                   >Software Company</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-digital-agency" class="dropdown-item"
-                  >Digital Agency</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="/home-shop-modern" class="dropdown-item">
-                  Modren Shop</NuxtLink
                 >
               </li>
             </ul>
@@ -105,47 +66,35 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
               <li>
-                <NuxtLink to="/page-about-5" class="dropdown-item"
-                  >about</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item">about</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/page-product-5" class="dropdown-item"
-                  >product</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item">product</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/page-services-5" class="dropdown-item"
-                  >services</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item">services</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/page-shop-5" class="dropdown-item"
-                  >shop</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item">shop</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/page-single-project-5" class="dropdown-item"
-                  >single project</NuxtLink
-                >
+                <NuxtLink to="#" class="dropdown-item">single project</NuxtLink>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <NuxtLink to="/page-portfolio-5" class="nav-link">
-              portfolio
-            </NuxtLink>
+            <NuxtLink to="#" class="nav-link"> portfolio </NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="/page-blog-5" class="nav-link"> blog </NuxtLink>
+            <NuxtLink to="#" class="nav-link"> blog </NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="/page-contact-5" class="nav-link"> contact </NuxtLink>
+            <NuxtLink to="#" class="nav-link"> contact </NuxtLink>
           </li>
         </ul>
         <div class="nav-side">
-          <div class="d-flex ps-4">
-            <a href="#" class="search-icon me-5">
+          <div class="d-inline-flex align-items-center ps-4">
+            <a href="#" class="search-icon me-4">
               <Icon name="bi:search" class="text-white"></Icon>
             </a>
             <div
@@ -154,17 +103,17 @@
               @mouseleave="handleMouseLeave"
             >
               <button
-                class="icon-35 dropdown-toggle p-0 border-0 bg-transparent rounded-circle img-cover text-white"
+                class="d-inline-flex dropdown-toggle border-0 p-0 bg-transparent img-cover text-white"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img src="/assets/img/lang.png" alt="" />
+                <Icon name="ion:language" size="20"></Icon>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="#">English</a></li>
-                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                <li><a class="dropdown-item" href="#">አማርኛ</a></li>
               </ul>
             </div>
           </div>

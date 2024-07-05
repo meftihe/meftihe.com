@@ -12,17 +12,12 @@
             :key="i"
           >
             <div class="project-card d-block mb-30 style-3">
-              <NuxtLink
-                to="/page-single-project-5"
-                class="img img-cover d-block"
-              >
+              <NuxtLink to="#" class="img img-cover d-block">
                 <img :src="project.image" alt="" />
               </NuxtLink>
               <div class="info">
                 <h5 class="h5">
-                  <NuxtLink to="/page-single-project-5">{{
-                    project.title
-                  }}</NuxtLink>
+                  <NuxtLink to="#">{{ project.title }}</NuxtLink>
                 </h5>
                 <small class="small"
                   ><a href="#">{{ project.description }}</a></small
@@ -33,7 +28,7 @@
         </div>
         <div class="text-center">
           <NuxtLink
-            to="/page-portfolio-5"
+            to="#"
             class="btn rounded-pill bg-blue2 sm-butn mt-60 text-white"
           >
             <span>See All Projects</span>

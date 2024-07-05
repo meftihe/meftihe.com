@@ -9,10 +9,7 @@
         <div class="text">
           {{ service?.details }}
         </div>
-        <NuxtLink
-          to="/page-portfolio-5"
-          class="d-inline-flex align-items-center"
-        >
+        <NuxtLink to="#" class="d-inline-flex align-items-center">
           <span>see projects</span>
           <Icon name="bi:chevron-right" class="ms-1"></Icon>
         </NuxtLink>
