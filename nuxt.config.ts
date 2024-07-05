@@ -10,12 +10,6 @@ export default defineNuxtConfig({
     head: {
       title: 'My Awesome App',
       meta: [{ charset: 'utf-8' }],
-      script: [
-        {
-          src: '_nuxt/assets/js/lib/bootstrap.bundle.min.js',
-          type: 'text/javascript',
-        },
-      ],
     },
   },
   devtools: { enabled: true },
