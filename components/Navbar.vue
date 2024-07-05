@@ -37,16 +37,6 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
               <li>
-                <NuxtLink to="#" class="dropdown-item"
-                  >Landing Preview</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="#" class="dropdown-item">
-                  Creative It Solutions</NuxtLink
-                >
-              </li>
-              <li>
                 <NuxtLink to="#" class="dropdown-item"> Data Analysis</NuxtLink>
               </li>
               <li>
@@ -54,27 +44,8 @@
               </li>
               <li>
                 <NuxtLink to="#" class="dropdown-item"
-                  >Saas Technology</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="#" class="dropdown-item"
-                  >Marketing Startup</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="#" class="dropdown-item">It Solution</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="#" class="dropdown-item"
                   >Software Company</NuxtLink
                 >
-              </li>
-              <li>
-                <NuxtLink to="#" class="dropdown-item">Digital Agency</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="#" class="dropdown-item"> Modren Shop</NuxtLink>
               </li>
             </ul>
           </li>
@@ -122,8 +93,8 @@
           </li>
         </ul>
         <div class="nav-side">
-          <div class="d-flex ps-4">
-            <a href="#" class="search-icon me-5">
+          <div class="d-inline-flex align-items-center ps-4">
+            <a href="#" class="search-icon me-4">
               <Icon name="bi:search" class="text-white"></Icon>
             </a>
             <div
@@ -132,13 +103,13 @@
               @mouseleave="handleMouseLeave"
             >
               <button
-                class="icon-35 dropdown-toggle p-0 border-0 bg-transparent rounded-circle img-cover text-white"
+                class="d-inline-flex dropdown-toggle border-0 p-0 bg-transparent img-cover text-white"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img src="/assets/img/lang.png" alt="" />
+                <Icon name="ion:language" size="20"></Icon>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="#">English</a></li>
