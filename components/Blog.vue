@@ -5,7 +5,7 @@
         <div class="col-lg-5">
           <div class="blog-content">
             <div class="section-head style-3 d-flex align-items-center mb-50">
-              <h3>Iteck’s <span>Journal</span></h3>
+              <h3>Gracesoft’s <span>Journal</span></h3>
               <NuxtLink to="#" class="d-inline-flex text-muted ms-5 ps-5 mt-2"
                 >All Articles
                 <Icon

@@ -4,7 +4,7 @@
       <div class="row gx-0 justify-content-between">
         <div class="col-lg-3 col-sm-6">
           <div class="items">
-            <div class="title">Iteck - 1st Choice for IT Solutions</div>
+            <div class="title">Gracesoft - 1st Choice for IT Solutions</div>
             <small class="text">
               Over 25 years working in IT services developing software
               applications and mobile apps for clients all over the world. For
@@ -70,8 +70,17 @@
       <div class="foot">
         <div class="row">
           <div class="col-lg-3 col-sm-6">
-            <div class="logo">
-              <img src="/assets/img/logo_b2.png" alt="" />
+            <div class="logo d-flex align-items-center" href="#">
+              <img
+                src="/logo_purple.svg"
+                width="40px"
+                height="40px"
+                alt="Gracesoft logo"
+              />
+              <div class="ms-2 lh-1">
+                <h5 class="text-black lh-1 fw-bold">Gracesoft</h5>
+                <span class="text-black">IT Solutions</span>
+              </div>
             </div>
           </div>
           <div class="col-lg-6 d-flex justify-content-center">

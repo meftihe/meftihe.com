@@ -4,8 +4,12 @@
     ref="navbarRef"
   >
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="/assets/img/logo_ll.png" alt="" />
+      <a class="d-flex align-items-center" href="#">
+        <img src="/logo.svg" width="60px" height="60px" alt="Gracesoft logo" />
+        <div class="ms-2 lh-1">
+          <h3 class="text-white lh-1">Gracesoft</h3>
+          <span class="text-white">IT Solutions</span>
+        </div>
       </a>
       <button
         class="navbar-toggler"

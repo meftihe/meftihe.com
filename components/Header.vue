@@ -6,7 +6,7 @@
           <div class="col-lg-5">
             <div class="info">
               <h1 class="h1">
-                Make your life easier with help from <span>Iteck</span>
+                Make life easier with help from <span>Gracesoft</span>
               </h1>
               <p class="p">
                 We help businesses elevate their value through custom software
@@ -56,7 +56,8 @@
     <div class="main-img">
       <img src="/assets/img/header/header_3.png" alt="" class="pattern" />
       <img src="/assets/img/header/header_3_c.png" alt="" class="circle" />
-      <img src="/assets/img/header/logo_sh_l.png" alt="" class="logo_shap" />
+      <!-- <img src="/assets/img/header/logo_sh_l.png" alt="" class="logo_shap" /> -->
+      <img src="/logo.svg" alt="" class="logo_shap" />
     </div>
   </header>
 </template>
