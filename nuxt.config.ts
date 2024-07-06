@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'My Awesome App',
+      title: 'Gracesoft IT Solutions',
       meta: [{ charset: 'utf-8' }],
     },
   },

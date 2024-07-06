@@ -56,8 +56,7 @@
     <div class="main-img">
       <img src="/assets/img/header/header_3.png" alt="" class="pattern" />
       <img src="/assets/img/header/header_3_c.png" alt="" class="circle" />
-      <!-- <img src="/assets/img/header/logo_sh_l.png" alt="" class="logo_shap" /> -->
-      <img src="/logo.svg" alt="" class="logo_shap" />
+      <img src="/assets/img/header/logo_sh_l.png" alt="" class="logo_shap" />
     </div>
   </header>
 </template>
