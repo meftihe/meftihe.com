@@ -6,7 +6,7 @@
           <div class="col-lg-5">
             <div class="info">
               <h1 class="h1">
-                Make your life easier with help from <span>Iteck</span>
+                Make life easier with help from <span>Gracesoft</span>
               </h1>
               <p class="p">
                 We help businesses elevate their value through custom software

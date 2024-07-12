@@ -6,7 +6,7 @@
 
 <script setup>
 useHead({
-  title: 'Homepage',
+  // title: 'Gracesoft - Home',
   meta: [
     {
       name: 'description',

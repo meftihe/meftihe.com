@@ -19,22 +19,22 @@
           <div class="col-lg-5">
             <div class="info">
               <div class="section-head long-shape mb-40 style-3">
-                <h3>Iteck’s <span>Mission & Vision</span></h3>
+                <h3>Gracesoft’s <span>Mission & Vision</span></h3>
               </div>
               <h5 class="h5">
                 “It is only when they go wrong that machines remind you how
                 powerful they are.”
               </h5>
               <div class="text mb-20">
-                Iteck Co is the partner of choice for many of the world’s
+                Gracesoft Co is the partner of choice for many of the world’s
                 leading enterprises, SMEs and technology challengers. We help
                 businesses elevate their value through custom software
                 development, product design, QA and consultancy services.
               </div>
               <div class="text mb-70">
-                Iteck specializes in technological and IT-related services such
-                as product engineering, warranty management, building cloud,
-                etc.
+                Gracesoft specializes in technological and IT-related services
+                such as product engineering, warranty management, building
+                cloud, etc.
               </div>
               <NuxtLink
                 to="#"
@@ -53,7 +53,7 @@
           <div class="col-lg-5">
             <div class="info pe-lg-5">
               <div class="section-head mb-40 style-3">
-                <h3>Iteck’s <span>Technology</span></h3>
+                <h3>Gracesoft’s <span>Technology</span></h3>
               </div>
               <div class="text mb-30">
                 Our team can assist you in transforming your business through
