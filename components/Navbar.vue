@@ -5,9 +5,9 @@
   >
     <div class="container">
       <a class="d-flex align-items-center" href="#">
-        <img src="/meftihe-logo-white.svg" alt="Gracesoft logo" class="w-32" />
+        <img src="/meftihe-logo-white.svg" alt="Meftihe logo" class="w-28" />
         <div class="ms-2 lh-1">
-          <h3 class="text-white lh-1">Gracesoft</h3>
+          <h3 class="text-white lh-1">Meftihe</h3>
           <span class="text-white">IT Solutions</span>
         </div>
       </a>
