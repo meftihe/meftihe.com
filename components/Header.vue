@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden"
+    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden bg-matrix-pattern"
     data-scroll-index="0"
   >
     <div class="px-4 md:px-28">
@@ -20,46 +20,51 @@
                 <span class="fw-normal ms-1">We’ll contact back in 24h</span>
               </h5>
               <form action="contact.php" class="form mt-30" method="post">
-                <div class="row gx-3">
-                  <div class="col-6">
-                    <div class="d-inline-flex form-group input-with-icon">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Your Email *"
-                      />
-                      <span class="input-icon">
-                        <Icon name="bi:envelope" class="me-1"></Icon>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="form-group">
-                      <select class="form-select" value="Your inquiry about">
-                        <option value="">Your inquiry about</option>
-                        <option value="">Your inquiry about</option>
-                        <option value="">Your inquiry about</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button
-                      class="btn dark-butn hover-darkBlue rounded-pill w-100 mt-3"
+                <div class="flex space-x-2">
+                  <label
+                    class="input input-bordered rounded-full flex items-center gap-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      class="h-4 w-4 opacity-70"
                     >
-                      <span>Request A Consultation</span>
-                    </button>
-                  </div>
+                      <path
+                        d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"
+                      />
+                      <path
+                        d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"
+                      />
+                    </svg>
+                    <input type="text" class="grow" placeholder="Email" />
+                  </label>
+                  <select class="select select-bordered grow rounded-full">
+                    <option disabled selected>Who shot first?</option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                  </select>
                 </div>
+                <button class="btn btn-block rounded-full mt-4 text-white">
+                  <span>Request A Consultation</span>
+                </button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="absolute right-0 top-[100px] w-1/2">
-      <img src="/assets/img/header/header_3.png" alt="" class="pattern" />
-      <img src="/assets/img/header/header_3_c.png" alt="" class="circle" />
-      <!-- <img src="/assets/img/header/logo_sh_l.png" alt="" class="logo_shap" /> -->
+    <div class="absolute right-0 top-[100px] w-1/2 object-cover">
+      <img
+        src="/assets/img/header/header_3.png"
+        alt="pattern"
+        class="absolute top-0 right-0 w-full h-full"
+      />
+      <img
+        src="/assets/img/header/header_3_c.png"
+        alt="circle"
+        class="absolute top-0 right-0 w-full h-full"
+      />
     </div>
   </header>
 </template>
