@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg navbar-dark style-3 position-absolute w-100"
+    class="py-5 flex flex-wrap justify-between align-center grow-1 absolute w-full"
     ref="navbarRef"
   >
     <div class="container">

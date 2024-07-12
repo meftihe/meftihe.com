@@ -6,7 +6,7 @@
           <div class="col-lg-5">
             <div class="info">
               <h1 class="h1">
-                Make life easier with help from <span>Gracesoft</span>
+                Make life easier with help from <span>Meftihe</span>
               </h1>
               <p class="p">
                 We help businesses elevate their value through custom software
