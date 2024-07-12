@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-primary h-100">
+  <div class="bg-blue-700 h-full">
     <NuxtPage />
   </div>
 </template>
 
 <script setup>
 useHead({
-  // title: 'Gracesoft - Home',
+  title: 'Gracesoft - Home',
   meta: [
     {
       name: 'description',

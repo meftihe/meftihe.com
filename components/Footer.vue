@@ -72,13 +72,12 @@
           <div class="col-lg-3 col-sm-6">
             <div class="logo d-flex align-items-center" href="#">
               <img
-                src="/logo_purple.svg"
-                width="40px"
-                height="40px"
+                src="/meftihe-logo-purple.svg"
+                class="w-24"
                 alt="Gracesoft logo"
               />
               <div class="ms-2 lh-1">
-                <h5 class="text-black lh-1 fw-bold">Gracesoft</h5>
+                <h5 class="text-black lh-1 fw-bold">Meftihe</h5>
                 <span class="text-black">IT Solutions</span>
               </div>
             </div>

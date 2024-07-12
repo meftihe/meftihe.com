@@ -5,7 +5,7 @@
   >
     <div class="container">
       <a class="d-flex align-items-center" href="#">
-        <img src="/logo.svg" width="60px" height="60px" alt="Gracesoft logo" />
+        <img src="/meftihe-logo-white.svg" alt="Gracesoft logo" class="w-32" />
         <div class="ms-2 lh-1">
           <h3 class="text-white lh-1">Gracesoft</h3>
           <span class="text-white">IT Solutions</span>
