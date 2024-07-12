@@ -1,6 +1,6 @@
 <template>
   <div
-    class="navbar top-0 w-full z-10 bg-transparent absolute z-1000 text-white md:px-28 md:py-10"
+    class="navbar top-0 w-full z-10 bg-transparent absolute z-1000 text-white md:px-28 md:py-5"
   >
     <div class="navbar-start">
       <div class="dropdown">
@@ -36,7 +36,7 @@
         </ul>
       </div>
 
-      <a class="flex items-center" href="#">
+      <nuxt-link to="/" class="flex items-center">
         <img
           src="/meftihe-logo-white.svg"
           alt="Meftihe logo"
@@ -48,10 +48,10 @@
           <h3 class="text-white lg:text-xl leading-none">Meftihe</h3>
           <span class="text-white lg:text-sm leading-none">IT Solutions</span>
         </div>
-      </a>
+      </nuxt-link>
     </div>
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1 [&_li>*]:rounded-full">
+      <ul class="menu menu-horizontal px-1 [&_li>*]:rounded-full space-x-1">
         <li class="hover:bg-base-200 rounded-full">
           <a>Item 1</a>
         </li>
