@@ -58,12 +58,12 @@
       <img
         src="/assets/img/header/header_3.png"
         alt="pattern"
-        class="absolute top-0 right-0 w-full h-full"
+        class="absolute top-0 right-0 w-full h-full animate-spin"
       />
       <img
         src="/assets/img/header/header_3_c.png"
         alt="circle"
-        class="absolute top-0 right-0 w-full h-full"
+        class="absolute animate-spin duration-xl"
       />
     </div>
   </header>
