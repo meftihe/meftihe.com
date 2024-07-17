@@ -20,6 +20,7 @@ export default {
       cover: 'cover',
       contain: 'contain',
       80: '80%',
+      160: '160px',
     },
     extend: {
       brightness: {

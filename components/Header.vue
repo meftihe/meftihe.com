@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-[url('0011.png')] before:bg-80 before:opacity-[0.08] before:bg-bottom before:filter before:invert before:sepia-0 before:saturate-0 before:hue-rotate-90 before:brightness-max before:contrast-100 w-full bg-repeat"
+    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-[url('0011.png')] before:bg-80 before:bg-repeat before:opacity-[0.08] before:bg-bottom before:filter before:invert before:sepia-0 before:saturate-0 before:hue-rotate-90 before:brightness-max before:contrast-100 w-full"
     data-scroll-index="0"
   >
     <div class="px-4 md:px-28">
@@ -8,9 +8,13 @@
         <div class="lg:w-5/12">
           <div class="info">
             <h1 class="text-5xl font-bold leading-tight text-white">
-              Make life easier with help from <span>Meftihe</span>
+              Make life easier with help from
+              <span
+                class="italic relative font-medium before:content-[''] before:absolute before:left-0 before:top-full before:w-40 before:h-[30px] before:bg-[url('infoh1line.png')] before:bg-160 before:bg-no-repeat before:bg-left"
+                >Meftihe</span
+              >
             </h1>
-            <p class="mt-10 text-slate-300">
+            <p class="mt-[40px] text-slate-300">
               We help businesses elevate their value through custom software
               development, product design, QA & consultancy services.
             </p>
