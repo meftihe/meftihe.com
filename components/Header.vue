@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#4a00e1] bg-blend-overlay bg-auto relative pt-24 px-0 pb-8 overflow-hidden before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-matrix-pattern before:bg-80 before:opacity-[0.08] before:bg-bottom before:filter before:invert before:sepia-0 before:saturate-0 before:hue-rotate-90 before:brightness-max before:contrast-100 before:content-[''] w-full bg-repeat"
+    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-[url('0011.png')] before:bg-80 before:opacity-[0.08] before:bg-bottom before:filter before:invert before:sepia-0 before:saturate-0 before:hue-rotate-90 before:brightness-max before:contrast-100 w-full bg-repeat"
     data-scroll-index="0"
   >
     <div class="px-4 md:px-28">
@@ -53,16 +53,14 @@
       </div>
     </div>
     <div
-      class="absolute right-0 top-[100px] w-7/12 h-[calc(100%-300px)] object-contain object-right z-0"
+      class="absolute hidden lg:block right-0 top-[100px] w-7/12 h-[calc(100%-250px)] object-contain object-right z-0"
     >
       <img
         src="/assets/img/header/header_3.png"
-        alt="pattern"
         class="absolute w-full h-full"
       />
       <img
         src="/assets/img/header/header_3_c.png"
-        alt="circle"
         class="absolute w-[55%] top-[10.5%] right-[20%] animate-[rotate-center_100s_linear_infinite_both]"
       />
     </div>

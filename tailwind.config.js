@@ -22,9 +22,6 @@ export default {
       80: '80%',
     },
     extend: {
-      backgroundImage: {
-        'matrix-pattern': "url('0011.png')",
-      },
       brightness: {
         max: '1003%',
       },
