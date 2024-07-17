@@ -21,12 +21,12 @@ export default {
       contain: 'contain',
       80: '80%',
     },
-    transitionDuration: {
-      xl: '100000ms',
-    },
     extend: {
       backgroundImage: {
         'matrix-pattern': "url('0011.png')",
+      },
+      brightness: {
+        max: '1003%',
       },
     },
   },
