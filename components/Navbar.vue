@@ -57,7 +57,11 @@
         </li>
         <li>
           <details>
-            <summary class="rounded-full hover:bg-base-200">Parent</summary>
+            <summary
+              class="rounded-full hover:bg-base-200 hover:text-base-content"
+            >
+              Parent
+            </summary>
             <ul class="p-2">
               <li><a>Submenu 1</a></li>
               <li><a>Submenu 2</a></li>

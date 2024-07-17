@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden bg-matrix-pattern"
+    class="bg-[#4a00e1] bg-blend-overlay bg-auto relative pt-24 px-0 pb-8 overflow-hidden before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-80 before:opacity-[0.08] before:bg-bottom before:filter before:invert before:sepia-[0%] before:saturate-[0%] before:hue-rotate-[93deg] before:brightness-[1003%] before:contrast-[103%] before:content-[''] before:bg-matrix-pattern w-full bg-repeat"
     data-scroll-index="0"
   >
     <div class="px-4 md:px-28">
@@ -8,7 +8,7 @@
         <div class="flex flex-wrap">
           <div class="lg:w-5/12">
             <div class="info">
-              <h1 class="text-6xl font-bold leading-tight text-white">
+              <h1 class="text-5xl font-bold leading-tight text-white">
                 Make life easier with help from <span>Meftihe</span>
               </h1>
               <p class="mt-10 text-slate-300">
@@ -45,7 +45,7 @@
                     <option>Greedo</option>
                   </select>
                 </div>
-                <button class="btn btn-block rounded-full mt-4 text-white">
+                <button class="btn btn-secondary btn-block rounded-full mt-4">
                   <span>Request A Consultation</span>
                 </button>
               </form>
@@ -54,11 +54,11 @@
         </div>
       </div>
     </div>
-    <div class="absolute right-0 top-[100px] w-1/2 object-cover">
+    <div class="absolute right-0 top-[100px] w-1/2 h-96 object-cover border">
       <img
         src="/assets/img/header/header_3.png"
         alt="pattern"
-        class="absolute top-0 right-0 w-full h-full animate-spin"
+        class="absolute"
       />
       <img
         src="/assets/img/header/header_3_c.png"

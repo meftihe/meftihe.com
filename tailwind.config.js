@@ -15,12 +15,18 @@ export default {
     'content/**/*.md',
   ],
   theme: {
+    backgroundSize: {
+      auto: 'auto',
+      cover: 'cover',
+      contain: 'contain',
+      80: '80%',
+    },
     transitionDuration: {
       xl: '100000ms',
     },
     extend: {
       backgroundImage: {
-        'matrix-pattern': "url('/img/0011.png')",
+        'matrix-pattern': "url('0011.png')",
       },
     },
   },
