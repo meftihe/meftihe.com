@@ -18,9 +18,11 @@
               We help businesses elevate their value through custom software
               development, product design, QA & consultancy services.
             </p>
-            <h5 class="text-base mt-14 text-white">
+            <h5
+              class="mt-14 font-bold text-base-100 relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
+            >
               Get Free Quote!
-              <span class="fw-normal ms-1">We’ll contact back in 24h</span>
+              <span class="font-normal ms-1">We’ll contact back in 24h</span>
             </h5>
             <form action="contact.php" class="form mt-30" method="post">
               <div class="flex space-x-2">
