@@ -50,7 +50,7 @@
                   <option>Greedo</option>
                 </select>
               </div>
-              <button class="btn btn-secondary btn-block rounded-full mt-4">
+              <button class="btn btn-neutral btn-block rounded-full mt-4">
                 <span>Request A Consultation</span>
               </button>
             </form>
