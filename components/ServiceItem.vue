@@ -1,16 +1,16 @@
 <template>
-  <div class="col-lg-3 col-sm-6 mb-30 mb-lg-0">
-    <div class="service-card style-3">
-      <div class="icon">
+  <div class="bg-base-100 rounded-xl w-full md:w-[48%] lg:w-[23%] p-7 mb-6">
+    <div>
+      <div class="mb-14">
         <img :src="service?.icon" alt="" />
       </div>
-      <div class="info">
-        <h5 class="title">{{ service?.title }}</h5>
-        <div class="text">
+      <div class="flex flex-col gap-6 capitalize">
+        <h5 class="text-lg font-bold">{{ service?.title }}</h5>
+        <div class="text-sm text-[#666]">
           {{ service?.details }}
         </div>
-        <NuxtLink to="#" class="d-inline-flex align-items-center">
-          <span>see projects</span>
+        <NuxtLink to="#" class="inline-flex items-center">
+          <span class="text-sm font-medium uppercase">See projects</span>
           <Icon name="bi:chevron-right" class="ms-1"></Icon>
         </NuxtLink>
       </div>
