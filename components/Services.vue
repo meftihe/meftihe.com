@@ -14,7 +14,7 @@
         </NuxtLink>
       </div>
 
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap lg:flex-nowrap gap-2 justify-between">
         <ServiceItem
           v-for="(service, index) in services"
           :key="index"
