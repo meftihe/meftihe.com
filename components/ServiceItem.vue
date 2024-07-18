@@ -1,5 +1,5 @@
 <template>
-  <div class="col-lg-3 col-sm-6 mb-30 mb-lg-0">
+  <div class="bg-base-100 col-lg-3 col-sm-6 mb-30 mb-lg-0">
     <div class="service-card style-3">
       <div class="icon">
         <img :src="service?.icon" alt="" />
