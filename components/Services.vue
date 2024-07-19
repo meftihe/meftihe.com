@@ -3,7 +3,10 @@
     <div class="px-8 lg:px-24">
       <div class="flex items-center justify-between mb-12">
         <h3 class="text-3xl font-medium capitalize">
-          Our Main <StyledSpan>Services</StyledSpan>
+          Our Main
+          <StyledSpan class="after:bg-[url('title_shap1.png')]"
+            >Services</StyledSpan
+          >
         </h3>
         <NuxtLink
           to="#"
