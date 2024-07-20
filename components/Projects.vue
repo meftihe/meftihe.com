@@ -16,16 +16,16 @@
             v-for="(project, i) in projects"
             :key="i"
           >
-            <div class="relative overflow-hidden">
+            <div class="relative overflow-hidden group">
               <NuxtLink to="#" class="h-96 rounded-2xl overflow-hidden block">
                 <img
                   :src="project.image"
-                  class="w-full h-full object-cover"
+                  class="w-full h-full object-cover transition-all duration-1000 ease-in-out hover:rotate-[-5deg] hover:scale-110"
                   :alt="project.title"
                 />
               </NuxtLink>
               <div
-                class="absolute z-5 bottom-5 left-5 bg-base-100 rounded-2xl inline-block px-6 py-5"
+                class="absolute z-5 bottom-5 left-5 bg-base-100 rounded-2xl inline-block px-6 py-5 transition-all duration-400 ease-in-out opacity-0 translate-y-[150%] group-hover:translate-y-0 group-hover:opacity-100"
               >
                 <h5 class="h5">
                   <NuxtLink to="#">{{ project.title }}</NuxtLink>
