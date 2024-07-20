@@ -1,7 +1,7 @@
 <template>
   <section class="py-24 relative bg-base-200" data-scroll-index="7">
     <div class="px-4 lg:px-20">
-      <div class="flex flex-wrap flex-col lg:flex-row justify-between">
+      <div class="flex flex-col lg:flex-row justify-between">
         <div class="md:basis-5/12">
           <div class="px-2">
             <div class="inline-flex items-center gap-20 mb-12">
@@ -23,7 +23,7 @@
               </NuxtLink>
             </div>
             <div
-              :class="`relative flex flex-col gap-4 md:gap-0 md:flex-row break-all ${
+              :class="`flex flex-col gap-4 md:gap-0 md:flex-row ${
                 i !== data.blogs.length - 1 ? 'border-b border-gray-300' : ''
               } pb-6 mb-6`"
               v-for="(post, i) in data.blogs"
@@ -86,49 +86,47 @@
           </div>
         </div>
         <div class="md:basis-5/12">
-          <div class="faq style-3">
-            <div class="uppercase mb-12">
-              <h3 class="text-3xl font-medium capitalize">FAQS</h3>
-            </div>
+          <div class="uppercase mb-12">
+            <h3 class="text-3xl font-medium capitalize">FAQS</h3>
+          </div>
 
-            <div class="join join-vertical w-full rounded-none shadow-sm">
-              <div
-                class="collapse collapse-arrow join-item border-base-300 border"
-                v-for="(item, index) in data.faq"
-              >
-                <input type="radio" name="my-accordion-4" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
-                  {{ item.question }}
-                </div>
-                <div class="collapse-content bg-base-100 pt-4">
-                  <p>{{ item.answer }}</p>
-                </div>
+          <div class="join join-vertical w-full rounded-none shadow-sm">
+            <div
+              class="collapse collapse-arrow join-item border-base-300 border"
+              v-for="(item, index) in data.faq"
+            >
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                {{ item.question }}
+              </div>
+              <div class="collapse-content bg-base-100 pt-4">
+                <p>{{ item.answer }}</p>
               </div>
             </div>
-
-            <NuxtLink
-              to="#"
-              class="inline-flex items-center text-[#6c757d] uppercase mt-6 text-sm"
-            >
-              See More
-              <Icon
-                name="material-symbols-light:chevron-right"
-                size="24"
-                class="ms-1"
-              ></Icon>
-            </NuxtLink>
           </div>
+
+          <NuxtLink
+            to="#"
+            class="inline-flex items-center text-[#6c757d] uppercase mt-6 text-sm"
+          >
+            See More
+            <Icon
+              name="material-symbols-light:chevron-right"
+              size="24"
+              class="ms-1"
+            ></Icon>
+          </NuxtLink>
         </div>
       </div>
-      <div class="client-logos mt-100">
-        <div class="row align-items-center">
+      <div class="mt-24">
+        <div class="flex flex-wrap items-center">
           <div
-            class="col-6 col-lg-2"
+            class="basis-1/2 lg:basis-2/12"
             v-for="(client, index) in data.clients"
             :key="index"
           >
-            <a href="#" class="img d-block">
-              <img :src="client" alt="" />
+            <a href="#" class="block my-5">
+              <img :src="client" class="opacity-60 grayscale" alt="" />
             </a>
           </div>
         </div>
