@@ -1,21 +1,32 @@
 <template>
-  <section class="py-24 section-padding style-3" data-scroll-index="4">
-    <div class="container">
-      <div class="section-head style-3 text-center">
-        <h3>Our Featured <span>Projects</span></h3>
+  <section class="py-24 bg-base-200" data-scroll-index="4">
+    <div class="px-4 lg:px-20">
+      <div class="mb-12">
+        <h3 class="text-3xl font-medium capitalize text-center">
+          Our Featured
+          <StyledSpan class="after:bg-[url('title_shap1.png')]"
+            >Projects</StyledSpan
+          >
+        </h3>
       </div>
-      <div class="content">
-        <div class="row">
+      <div class="p-2">
+        <div class="flex flex-wrap gap-8">
           <div
-            :class="i === 0 ? 'col-lg-7' : i === 1 ? 'col-lg-5' : 'col-lg-6'"
+            :class="i === 0 ? 'basis-7/12' : i === 2 ? 'basis-5/12' : 'grow'"
             v-for="(project, i) in projects"
             :key="i"
           >
-            <div class="project-card d-block mb-30 style-3">
-              <NuxtLink to="#" class="img img-cover d-block">
-                <img :src="project.image" alt="" />
+            <div class="relative overflow-hidden">
+              <NuxtLink to="#" class="h-96 rounded-2xl overflow-hidden block">
+                <img
+                  :src="project.image"
+                  class="w-full h-full object-cover"
+                  :alt="project.title"
+                />
               </NuxtLink>
-              <div class="info">
+              <div
+                class="absolute z-5 bottom-5 left-5 bg-base-100 rounded-2xl inline-block px-6 py-5"
+              >
                 <h5 class="h5">
                   <NuxtLink to="#">{{ project.title }}</NuxtLink>
                 </h5>
@@ -26,11 +37,8 @@
             </div>
           </div>
         </div>
-        <div class="text-center">
-          <NuxtLink
-            to="#"
-            class="btn rounded-pill bg-blue2 sm-butn mt-60 text-white"
-          >
+        <div class="mt-20 text-center">
+          <NuxtLink to="#" class="btn btn-primary rounded-full">
             <span>See All Projects</span>
           </NuxtLink>
         </div>
