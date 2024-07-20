@@ -1,5 +1,5 @@
 <template>
-  <section class="projects section-padding style-3" data-scroll-index="4">
+  <section class="py-24 section-padding style-3" data-scroll-index="4">
     <div class="container">
       <div class="section-head style-3 text-center">
         <h3>Our Featured <span>Projects</span></h3>
