@@ -53,41 +53,40 @@
       </div>
     </div>
     <div class="flex flex-col lg:flex-row">
-      <div class="basis-1/2">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="info pe-lg-5">
-              <div class="section-head mb-40 style-3">
-                <h3>Gracesoft’s <span>Technology</span></h3>
-              </div>
-              <div class="text mb-30">
-                Our team can assist you in transforming your business through
-                latest tech capabilities to stay ahead of the curve.
-              </div>
-              <ul>
-                <li
-                  v-for="(feature, index) in aboutData.features"
-                  :key="index"
-                  class="d-inline-flex align-items-center"
-                >
-                  <Icon
-                    name="material-symbols:kid-star-sharp"
-                    class="me-2 color-blue4"
-                  ></Icon>
-                  {{ feature }}
-                </li>
-              </ul>
-              <NuxtLink
-                to="#"
-                class="btn rounded-pill border-blue2 hover-blue2 mt-60 sm-butn"
-              >
-                <span>How We Works</span>
-              </NuxtLink>
-            </div>
-          </div>
+      <div class="lg:basis-1/2 p-12">
+        <div class="mb-12">
+          <h3 class="text-3xl font-medium capitalize">
+            Gracesoft’s
+            <StyledSpan class="after:bg-[url('title_shap1.png')]"
+              >Technology</StyledSpan
+            >
+          </h3>
         </div>
+        <div class="mb-30">
+          Our team can assist you in transforming your business through latest
+          tech capabilities to stay ahead of the curve.
+        </div>
+        <ul class="flex flex-col">
+          <li
+            v-for="(feature, index) in aboutData.features"
+            :key="index"
+            class="inline-flex items-center"
+          >
+            <Icon
+              name="material-symbols:kid-star-sharp"
+              class="mr-2 text-primary"
+            ></Icon>
+            {{ feature }}
+          </li>
+        </ul>
+        <NuxtLink
+          to="#"
+          class="btn btn-outline rounded-full border-primary mt-12"
+        >
+          <span>How We Works</span>
+        </NuxtLink>
       </div>
-      <div class="basis-1/2">
+      <div class="lg:basis-1/2 hidden lg:block">
         <img src="/assets/img/about/style_3_2.png" alt="" />
       </div>
     </div>
