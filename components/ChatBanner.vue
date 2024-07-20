@@ -1,26 +1,26 @@
 <template>
-  <section class="chat-banner style-3 section-padding">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-7">
-          <div class="info">
-            <h3>
-              Assess Your Business Potentials Now & Find Opportunities For
-              <span>Bigger Success</span>
+  <section class="py-24 relative">
+    <div class="px-4 lg:px-20">
+      <div class="flex items-center justify-between">
+        <div>
+          <div class="text-3xl">
+            <h3 class="text-3xl text-base-100 capitalize">
+              Assess Your Business & Find Opportunities For
+              <span
+                class="italic relative font-medium before:content-[''] before:absolute before:left-0 before:top-full before:w-40 before:h-[30px] before:bg-[url('infoh1line.png')] before:bg-160 before:bg-no-repeat before:bg-left"
+                >Bigger Success</span
+              >
             </h3>
           </div>
         </div>
-        <div class="col-lg-5">
-          <div class="bttns text-end">
-            <NuxtLink
-              to="#"
-              class="btn rounded-pill bg-white border-1 border-white text-dark sm-butn me-2"
-            >
+        <div>
+          <div class="text-end space-x-2">
+            <NuxtLink to="#" class="btn rounded-full bg-white">
               <span>Let’s Chat</span>
             </NuxtLink>
             <NuxtLink
               to="#"
-              class="btn rounded-pill border-1 border-white text-white sm-butn"
+              class="btn rounded-full btn-outline border-white text-white hover:text-black hover:bg-white hover:border-white"
             >
               <span>Get Information</span>
             </NuxtLink>
