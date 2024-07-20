@@ -1,66 +1,83 @@
 <template>
-  <section class="blog section-padding style-3" data-scroll-index="7">
-    <div class="container">
-      <div class="row gx-0 justify-content-between">
-        <div class="col-lg-5">
-          <div class="blog-content">
-            <div class="section-head style-3 d-flex align-items-center mb-50">
-              <h3>Gracesoft’s <span>Journal</span></h3>
-              <NuxtLink to="#" class="d-inline-flex text-muted ms-5 ps-5 mt-2"
+  <section class="py-24 relative bg-base-200" data-scroll-index="7">
+    <div class="px-4 lg:px-20">
+      <div class="flex flex-col lg:flex-row justify-between">
+        <div class="md:basis-5/12">
+          <div class="px-2">
+            <div class="inline-flex items-center gap-20 mb-12">
+              <h3 class="text-3xl font-medium capitalize">
+                Gracesoft’s
+                <StyledSpan
+                  class="after:bg-[url('title_shap1.png')] after:-bottom-5"
+                  >Journal</StyledSpan
+                >
+              </h3>
+              <NuxtLink
+                to="#"
+                class="inline-flex items-center text-slate-500 hover:text-slate-800"
                 >All Articles
                 <Icon
-                  name="material-symbols-light:chevron-right bi ms-1"
-                  size="20"
+                  name="material-symbols-light:chevron-right"
+                  size="22"
                 ></Icon>
               </NuxtLink>
             </div>
             <div
-              :class="`card border-0 bg-transparent rounded-0 ${
-                i !== data.blogs.length - 1 ? 'border-bottom brd-gray' : ''
-              } pb-4 mb-4`"
+              :class="`flex flex-col gap-4 md:gap-0 md:flex-row ${
+                i !== data.blogs.length - 1 ? 'border-b border-gray-300' : ''
+              } pb-6 mb-6`"
               v-for="(post, i) in data.blogs"
               :key="i"
             >
-              <div class="row align-items-center">
-                <div class="col-lg-4">
-                  <NuxtLink to="#" class="img img-cover">
-                    <img :src="post.cover" class="radius-2" alt="..." />
-                  </NuxtLink>
-                </div>
-                <div class="col-lg-8">
-                  <div class="card-body p-0">
-                    <small class="d-block align-items-center date text">
+              <div class="md:basis-4/12">
+                <NuxtLink to="#" class="h-32">
+                  <img
+                    :src="post.cover"
+                    class="w-full h-full rounded-md object-cover"
+                    alt="..."
+                  />
+                </NuxtLink>
+              </div>
+              <div class="md:basis-8/12 px-3">
+                <div class="flex flex-col justify-between h-full">
+                  <div class="p-0">
+                    <small class="block items-center text-xs">
                       <a
                         href="#"
-                        class="text-uppercase border-end brd-light pe-3 me-3 color-blue2 fw-bold"
+                        class="uppercase mr-3 text-primary font-bold"
                         >{{ post.type }}</a
                       >
                       <Icon name="bi:clock" class="me-1"></Icon>
                       <a href="#" class="op-8">{{ post.time }}</a>
                     </small>
-                    <h6 class="card-title">
+                    <h6
+                      class="text-lg font-bold max-w-[85%] my-2 hover:text-primary leading-6"
+                    >
                       <NuxtLink to="#">{{ post.title }}</NuxtLink>
                     </h6>
-                    <div
-                      class="d-flex small mt-20 align-items-center justify-content-between op-9"
-                    >
-                      <div class="l_side d-flex align-items-center">
-                        <span
-                          class="icon-10 rounded-circle d-inline-flex justify-content-center align-items-center text-uppercase bg-blue2 p-2 me-2 text-white"
+                  </div>
+                  <div class="flex align-items-center justify-between">
+                    <div class="flex items-center">
+                      <span
+                        class="w-[10px] h-[10px] rounded-full inline-flex justify-center items-center uppercase bg-primary p-2 mr-2 text-white text-[10px]"
+                      >
+                        {{ post.userImage }}
+                      </span>
+                      <a href="#" class="text-sm">
+                        <small class="text-[#6c757d]"
+                          >By <b>{{ post.username }}</b></small
                         >
-                          {{ post.userImage }}
-                        </span>
-                        <a href="#">
-                          <small class="text-muted">By</small>
-                          {{ post.username }}
-                        </a>
-                      </div>
-                      <div class="r-side mt-1 d-inline-flex align-items-center">
-                        <Icon name="bi:chat-left-text" class="me-1"></Icon>
-                        <a href="#">{{ post.comments }}</a>
-                        <Icon name="bi:eye" class="me-1 ms-3"></Icon>
-                        <a href="#">{{ post.views }}</a>
-                      </div>
+                      </a>
+                    </div>
+                    <div class="mt-1 inline-flex items-center text-sm">
+                      <Icon
+                        name="bi:chat-left-text"
+                        size="11"
+                        class="mr-1"
+                      ></Icon>
+                      <a href="#">{{ post.comments }}</a>
+                      <Icon name="bi:eye" size="11" class="mr-1 ml-3"></Icon>
+                      <a href="#">{{ post.views }}</a>
                     </div>
                   </div>
                 </div>
@@ -68,74 +85,58 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5">
-          <div class="faq style-3">
-            <div class="section-head style-3 text-uppercase mb-50">
-              <h3>FAQS</h3>
-            </div>
-            <div class="accordion" id="accordionExample">
-              <div
-                class="accordion-item"
-                v-for="(item, index) in data.faq"
-                :key="index"
-              >
-                <h2 class="accordion-header" :id="`heading${index + 1}`">
-                  <button
-                    :class="`accordion-button ${
-                      index === 0 ? '' : 'collapsed'
-                    }`"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    :data-bs-target="`#collapse${index + 1}`"
-                    aria-expanded="true"
-                    :aria-controls="`collapse${index + 1}`"
-                  >
-                    {{ item.question }}
-                  </button>
-                </h2>
-                <div
-                  :id="`collapse${index + 1}`"
-                  :class="`accordion-collapse collapse ${
-                    index === 0 ? 'show' : ''
-                  }`"
-                  :aria-labelledby="`heading${index + 1}`"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    {{ item.answer }}
-                  </div>
-                </div>
+        <div class="md:basis-5/12">
+          <div class="uppercase mb-12">
+            <h3 class="text-3xl font-medium capitalize">FAQS</h3>
+          </div>
+
+          <div class="join join-vertical w-full rounded-none shadow-sm">
+            <div
+              class="collapse collapse-arrow join-item border-base-300 border"
+              v-for="(item, index) in data.faq"
+            >
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                {{ item.question }}
               </div>
-              <NuxtLink
-                to="#"
-                class="d-inline-flex align-items-center text-muted text-uppercase mt-50 small"
-              >
-                See More
-                <Icon
-                  name="material-symbols-light:chevron-right"
-                  size="24"
-                  class="ms-1"
-                ></Icon>
-              </NuxtLink>
+              <div class="collapse-content bg-base-100 pt-4">
+                <p>{{ item.answer }}</p>
+              </div>
             </div>
           </div>
+
+          <NuxtLink
+            to="#"
+            class="inline-flex items-center text-[#6c757d] uppercase mt-6 text-sm"
+          >
+            See More
+            <Icon
+              name="material-symbols-light:chevron-right"
+              size="24"
+              class="ms-1"
+            ></Icon>
+          </NuxtLink>
         </div>
       </div>
-      <div class="client-logos mt-100">
-        <div class="row align-items-center">
+      <div class="mt-24">
+        <div class="flex flex-wrap items-center">
           <div
-            class="col-6 col-lg-2"
+            class="basis-1/2 lg:basis-2/12"
             v-for="(client, index) in data.clients"
             :key="index"
           >
-            <a href="#" class="img d-block">
-              <img :src="client" alt="" />
+            <a href="#" class="block my-5">
+              <img :src="client" class="opacity-60 grayscale" alt="" />
             </a>
           </div>
         </div>
       </div>
     </div>
-    <img src="/assets/img/blog/v_lines.png" alt="" class="v_lines" />
+    <img
+      src="/assets/img/blog/v_lines.png"
+      alt=""
+      class="hidden lg:block absolute top-24 left-1/2 h-[calc(100%-340px)] -translate-x-1/2"
+    />
   </section>
 </template>
 
