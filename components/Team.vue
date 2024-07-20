@@ -1,47 +1,54 @@
 <template>
-  <section
-    class="team section-padding style-1 team-blue2 bg-white"
-    data-scroll-index="6"
-  >
-    <div class="container">
-      <div class="section-head long-shape style-3 text-center mb-70">
-        <h3>Meet Our <span>Amazing Team</span></h3>
+  <section class="py-24 bg-base-100" data-scroll-index="6">
+    <div class="px-4 lg:px-20">
+      <div class="mb-12">
+        <h3 class="text-3xl font-medium capitalize text-center">
+          Meet Our
+          <StyledSpan class="after:bg-[url('title_shap2.png')] after:-bottom-5"
+            >Amazing Team</StyledSpan
+          >
+        </h3>
       </div>
-      <div class="content">
-        <div class="team_box" v-for="(member, i) in teamMembers" :key="i">
+
+      <div
+        class="flex justify-between flex-wrap flex-col md:flex-row items-center"
+      >
+        <div
+          class="md:w-[18%] text-center mb-5 group"
+          v-for="(member, i) in teamMembers"
+          :key="i"
+        >
           <div class="avatar">
-            <img :src="member.picture" alt="" />
+            <div class="w-32 rounded">
+              <img :src="member.picture" alt="" />
+            </div>
           </div>
-          <div class="info">
-            <h6>
+          <div class="pt-2">
+            <h6
+              class="font-bold transition-all duration-300 ease-in-out group-hover:text-primary"
+            >
               <a href="#">{{ member.name }}</a>
             </h6>
-            <small>{{ member.position }}</small>
-            <div class="social_icons">
-              <a href="#">
+            <small class="text-[#888]">{{ member.position }}</small>
+            <div class="mt-1 flex justify-center space-x-1">
+              <a href="#" class="btn btn-circle btn-ghost btn-sm">
                 <Icon name="uil:facebook"></Icon>
               </a>
-              <a href="#">
+              <a href="#" class="btn btn-circle btn-ghost btn-sm">
                 <Icon name="uil:linkedin"></Icon>
               </a>
-              <a href="#">
+              <a href="#" class="btn btn-circle btn-ghost btn-sm">
                 <Icon name="uil:github"></Icon>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="bttns mt-4 text-center mt-50">
-        <NuxtLink
-          to="#"
-          class="btn rounded-pill bg-blue2 sm-butn mx-1 text-white"
-        >
+      <div class="text-center mt-16 space-x-2">
+        <NuxtLink to="#" class="btn btn-primary rounded-full px-7">
           <span>See All Team</span>
         </NuxtLink>
-        <NuxtLink
-          to="#"
-          class="btn rounded-pill border-blue2 hover-blue2 sm-butn mx-1"
-        >
+        <NuxtLink to="#" class="btn btn-outline btn-primary px-7 rounded-full">
           <span>Join Our Team</span>
         </NuxtLink>
       </div>
