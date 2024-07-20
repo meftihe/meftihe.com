@@ -28,6 +28,10 @@ export default {
       },
     },
   },
+  safeList: [
+    "after:bg-[url('title_shap1.png']",
+    "after:bg-[url('title_shap2.png']",
+  ],
   plugins: [daisyui],
   daisyui: {
     themes: true,

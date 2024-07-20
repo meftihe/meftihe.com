@@ -8,7 +8,9 @@
         <div class="flex items-center justify-between mb-12 pr-4">
           <h3 class="text-3xl font-medium capitalize">
             Loved By Thousand
-            <StyledSpan>Clients</StyledSpan>
+            <StyledSpan class="after:bg-[url('title_shap1.png')]"
+              >Clients</StyledSpan
+            >
           </h3>
           <div class="space-x-1 shrink-0">
             <button class="btn btn-circle bg-white btn-sm">
