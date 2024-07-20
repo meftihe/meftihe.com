@@ -1,12 +1,15 @@
 <template>
-  <section
-    class="team section-padding style-1 team-blue2 bg-white"
-    data-scroll-index="6"
-  >
-    <div class="container">
-      <div class="section-head long-shape style-3 text-center mb-70">
-        <h3>Meet Our <span>Amazing Team</span></h3>
+  <section class="py-24 bg-base-100" data-scroll-index="6">
+    <div class="px-4 lg:px-20">
+      <div class="mb-12">
+        <h3 class="text-3xl font-medium capitalize text-center">
+          Meet Our
+          <StyledSpan class="after:bg-[url('title_shap2.png')] after:-bottom-5"
+            >Amazing Team</StyledSpan
+          >
+        </h3>
       </div>
+
       <div class="content">
         <div class="team_box" v-for="(member, i) in teamMembers" :key="i">
           <div class="avatar">
