@@ -2,7 +2,7 @@
   <footer class="relative pt-24 bg-base-100 overflow-hidden">
     <div class="px-4 lg:px-20">
       <div class="flex flex-wrap justify-between">
-        <div class="lg:basis-3/12 basis-1/2">
+        <div class="lg:basis-3/12 basis-5/12">
           <div class="font-bold mb-7">
             Gracesoft - 1st Choice for IT Solutions
           </div>
@@ -23,7 +23,7 @@
             </a>
           </div>
         </div>
-        <div class="lg:basis-3/12 basis-1/2">
+        <div class="lg:basis-3/12 basis-6/12">
           <div class="font-bold mb-7">Information</div>
           <small class="text-xs mb-3 block">
             {{ footerData.address }}
