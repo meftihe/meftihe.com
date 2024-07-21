@@ -19,29 +19,20 @@
               development, product design, QA & consultancy services.
             </p>
             <h5
-              class="mt-14 font-bold text-base-100 relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
+              class="mt-8 font-bold text-base-100 relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
             >
               Get Free Quote!
               <span class="font-normal ms-1">We’ll contact back in 24h</span>
             </h5>
-            <form action="contact.php" class="form mt-30" method="post">
+            <form action="contact.php" class="form mt-5" method="post">
               <div class="flex space-x-2">
                 <label
                   class="input input-bordered rounded-full flex items-center gap-2"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 16 16"
-                    fill="currentColor"
-                    class="h-4 w-4 opacity-70"
-                  >
-                    <path
-                      d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"
-                    />
-                    <path
-                      d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"
-                    />
-                  </svg>
+                  <Icon
+                    name="uil:envelope"
+                    class="text-gray-400 w-5 h-5"
+                  ></Icon>
                   <input type="text" class="grow" placeholder="Email" />
                 </label>
                 <select class="select select-bordered grow rounded-full">
