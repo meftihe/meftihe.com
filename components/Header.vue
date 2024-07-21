@@ -58,7 +58,7 @@
       />
       <img
         src="/assets/img/header/header_3_c.png"
-        class="absolute w-[55%] top-[10.5%] right-[20%] animate-[rotate-center_100s_linear_infinite_both]"
+        class="absolute w-[55%] top-[10.5%] right-[20%] animate-rotatecenter"
       />
     </div>
   </header>

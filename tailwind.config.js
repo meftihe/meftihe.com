@@ -26,6 +26,21 @@ export default {
       brightness: {
         max: '1003%',
       },
+      keyframes: {
+        rotatecenter: {
+          '0%': {
+            transform: 'rotate(0deg)',
+            transformOrigin: 'center',
+          },
+          '100%': {
+            transform: 'rotate(360deg)',
+            transformOrigin: 'center',
+          },
+        },
+      },
+      animation: {
+        rotatecenter: 'rotatecenter 100s linear infinite both',
+      },
     },
   },
   safeList: [
