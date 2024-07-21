@@ -85,7 +85,7 @@
     <img
       src="/assets/img/contact_globe.svg"
       alt=""
-      class="absolute h-[150%] max-h-none w-3/5 -top-1/4 left-[20%] opacity-15 animate-rotatecenter"
+      class="absolute h-[150%] pointer-events-none max-h-none w-3/5 -top-1/4 left-[20%] opacity-15 animate-rotatecenter"
     />
   </footer>
 </template>
