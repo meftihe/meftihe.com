@@ -1,89 +1,74 @@
 <template>
-  <footer class="relative pt-24 bg-base-100">
-    <div class="container">
-      <div class="row gx-0 justify-content-between">
-        <div class="col-lg-3 col-sm-6">
-          <div class="items">
-            <div class="title">Gracesoft - 1st Choice for IT Solutions</div>
-            <small class="text">
-              Over 25 years working in IT services developing software
-              applications and mobile apps for clients all over the world. For
-              your very specific industry, we have highly-tailored IT solutions.
-            </small>
-            <div class="socail-icons">
-              <a
-                href="#"
-                class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a
-                href="#"
-                class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2"
-              >
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a
-                href="#"
-                class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
+  <footer class="relative pt-24 bg-base-100 overflow-hidden">
+    <div class="px-4 lg:px-20">
+      <div class="flex flex-wrap justify-between">
+        <div class="lg:basis-3/12 basis-1/2">
+          <div class="font-bold mb-7">
+            Gracesoft - 1st Choice for IT Solutions
+          </div>
+          <small class="text-xs">
+            Over 25 years working in IT services developing software
+            applications and mobile apps for clients all over the world. For
+            your very specific industry, we have highly-tailored IT solutions.
+          </small>
+          <div class="mt-7 flex space-x-2">
+            <a href="#" class="btn btn-circle btn-sm">
+              <Icon name="uil:facebook"></Icon>
+            </a>
+            <a href="#" class="btn btn-circle btn-sm">
+              <Icon name="uil:linkedin"></Icon>
+            </a>
+            <a href="#" class="btn btn-circle btn-sm">
+              <Icon name="uil:github"></Icon>
+            </a>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="items">
-            <div class="title">Information</div>
-            <small class="text mb-10 d-block">
-              {{ footerData.address }}
-            </small>
-            <small class="text mb-10 d-block">
-              {{ footerData.phone }}
-            </small>
-            <small class="text d-block">
-              {{ footerData.email }}
-            </small>
-          </div>
+        <div class="lg:basis-3/12 basis-1/2">
+          <div class="font-bold mb-7">Information</div>
+          <small class="text-xs mb-3 block">
+            {{ footerData.address }}
+          </small>
+          <small class="text-xs mb-3 block">
+            {{ footerData.phone }}
+          </small>
+          <small class="text-xs block">
+            {{ footerData.email }}
+          </small>
         </div>
-        <div class="col-lg-2">
-          <div class="items">
-            <div class="title">Useful Links</div>
-            <ul>
-              <li v-for="(item, index) in footerData.usefulLinks" :key="index">
-                <NuxtLink :to="item.link">{{ item.title }}</NuxtLink>
-              </li>
-            </ul>
-          </div>
+        <div class="lg:basis-2/12">
+          <div class="font-bold mb-7">Useful Links</div>
+          <ul>
+            <li v-for="(item, index) in footerData.usefulLinks" :key="index">
+              <NuxtLink :to="item.link">{{ item.title }}</NuxtLink>
+            </li>
+          </ul>
         </div>
-        <div class="col-lg-2">
-          <div class="items">
-            <div class="title">Services</div>
-            <ul>
-              <li v-for="(item, index) in footerData.services" :key="index">
-                <NuxtLink :to="item.link">{{ item.title }}</NuxtLink>
-              </li>
-            </ul>
-          </div>
+        <div class="lg:basis-2/12">
+          <div class="font-bold mb-7">Services</div>
+          <ul>
+            <li v-for="(item, index) in footerData.services" :key="index">
+              <NuxtLink :to="item.link">{{ item.title }}</NuxtLink>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="foot">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
-            <div class="logo d-flex align-items-center" href="#">
+      <div class="mt-20 py-8 relative">
+        <div class="flex flex-wrap">
+          <div class="lg:basis-3/12 basis-6/12">
+            <div class="flex items-center w-32" href="#">
               <img
                 src="/meftihe-logo-purple.svg"
-                class="w-24"
+                width="40px"
                 alt="Gracesoft logo"
               />
-              <div class="ms-2 lh-1">
-                <h5 class="text-black lh-1 fw-bold">Meftihe</h5>
-                <span class="text-black">IT Solutions</span>
+              <div class="ml-2">
+                <h5 class="font-bold leading-none">Meftihe</h5>
+                <span class="text-sm">IT Solutions</span>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 d-flex justify-content-center">
-            <small class="small d-inline-flex align-items-center">
+          <div class="lg:basis-6/12 flex justify-center">
+            <small class="text-sm leading-relaxed inline-flex items-center">
               <Icon name="solar:copyright-linear"></Icon> 2024
               <a href="#" class="fw-bold ms-1 me-1">Gracesoft IT solutions.</a>
               All rights reserved.
@@ -93,11 +78,15 @@
         <img
           src="/assets/img/testimonials/testi3_lines.png"
           alt=""
-          class="testi_lines w-100"
+          class="w-full absolute -top-2"
         />
       </div>
     </div>
-    <img src="/assets/img/contact_globe.svg" alt="" class="contact_globe" />
+    <img
+      src="/assets/img/contact_globe.svg"
+      alt=""
+      class="absolute h-[150%] max-h-none w-3/5 -top-1/4 left-[20%] opacity-15 animate-[rotate-center_100s_linear_infinite_both]"
+    />
   </footer>
 </template>
 
