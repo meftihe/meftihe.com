@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-[url('0011.png')] before:bg-80 before:bg-repeat before:opacity-[0.08] before:bg-bottom before:filter before:invert before:sepia-0 before:saturate-0 before:hue-rotate-90 before:brightness-max before:contrast-100 w-full"
+    class="bg-[#4a00e1] relative pt-24 px-0 pb-8 overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:h-2/3 before:w-full before:bg-[url('0011.png')] before:bg-80 before:bg-repeat before:opacity-[0.08] before:bg-bottom before:filter before:sepia-0 before:saturate-0 before:hue-rotate-90 before:brightness-max before:contrast-100 w-full"
     data-scroll-index="0"
   >
     <div class="px-4 md:px-28">
