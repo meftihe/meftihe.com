@@ -1,6 +1,6 @@
 <template>
   <section
-    class="py-24 relative after:content-[''] after:absolute after:top-0 after:left-0 after:h-3/5 after:w-full after:bg-[url('0011.png')] after:bg-80 after:bg-repeat after:opacity-[0.08] after:bg-bottom after:filter after:sepia-0 after:saturate-0 after:hue-rotate-90 after:brightness-max after:contrast-100"
+    class="py-24 relative after:content-[''] after:absolute after:top-0 after:left-0 after:h-3/5 after:w-full after:bg-[url('0011.png')] after:bg-80 after:bg-repeat after:opacity-[0.08] after:bg-bottom after:filter after:sepia-0 after:saturate-0 after:hue-rotate-90 after:brightness-max after:contrast-100 after:z-0"
   >
     <div class="px-4 lg:px-20">
       <div class="flex items-center justify-between">
@@ -11,7 +11,7 @@
             >
               Assess Your Business Potentials Now & Find Opportunities For
               <span
-                class="italic relative font-medium before:content-[''] before:absolute before:left-0 before:top-full before:w-40 before:h-[30px] before:bg-[url('infoh1line.png')] before:bg-160 before:bg-no-repeat before:bg-left"
+                class="italic relative font-medium before:content-[''] before:absolute before:left-0 before:top-full before:w-40 before:h-[30px] before:bg-[url('infoh1line.png')] before:bg-160 before:bg-no-repeat before:bg-left before:z-0"
                 >Bigger Success</span
               >
             </h3>

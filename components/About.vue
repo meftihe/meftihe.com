@@ -34,13 +34,13 @@
               "It is only when they go wrong that machines remind you how
               powerful they are."
             </Blockquote>
-            <div class="text mb-20">
+            <div class="text mb-7">
               Gracesoft Co is the partner of choice for many of the world’s
               leading enterprises, SMEs and technology challengers. We help
               businesses elevate their value through custom software
               development, product design, QA and consultancy services.
             </div>
-            <div class="text mb-70">
+            <div class="text mb-7">
               Gracesoft specializes in technological and IT-related services
               such as product engineering, warranty management, building cloud,
               etc.

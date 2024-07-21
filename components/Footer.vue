@@ -1,5 +1,5 @@
 <template>
-  <footer class="relative pt-24 bg-base-100 overflow-hidden">
+  <footer class="relative z-5 pt-24 bg-base-100 overflow-hidden">
     <div class="px-4 lg:px-20">
       <div class="flex flex-wrap justify-between">
         <div class="lg:basis-3/12 basis-5/12">
@@ -85,7 +85,7 @@
     <img
       src="/assets/img/contact_globe.svg"
       alt=""
-      class="absolute h-[150%] max-h-none w-3/5 -top-1/4 left-[20%] opacity-15 animate-[rotate-center_100s_linear_infinite_both]"
+      class="z-0 absolute h-[150%] max-h-none w-3/5 -top-1/4 left-[20%] opacity-15 animate-[rotate-center_100s_linear_infinite_both]"
     />
   </footer>
 </template>
