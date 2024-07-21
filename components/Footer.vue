@@ -1,5 +1,5 @@
 <template>
-  <footer class="style-3 bg-white">
+  <footer class="relative pt-24 bg-base-100">
     <div class="container">
       <div class="row gx-0 justify-content-between">
         <div class="col-lg-3 col-sm-6">
