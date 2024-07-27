@@ -72,7 +72,54 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <a class="btn btn-sm md:btn-md">Button</a>
+      <label class="swap swap-flip">
+        <input
+          type="checkbox"
+          ref="themeToggler"
+          @change="toggleColorMode"
+          aria-label="Toggle dark mode"
+        />
+
+        <Icon
+          name="material-symbols:wb-sunny-outline-rounded"
+          class="swap-on h-5 w-5"
+        />
+        <Icon
+          name="material-symbols:dark-mode-outline-rounded"
+          class="swap-off h-5 w-5"
+        />
+        <Icon name="ic:baseline-monitor" class="swap-indeterminate h-5 w-5" />
+      </label>
     </div>
   </div>
 </template>
+
+<script setup>
+const colorMode = useColorMode();
+const themeToggler = ref(null);
+
+onMounted(() => {
+  if (colorMode.preference === 'system') {
+    themeToggler.value.checked = false;
+    themeToggler.value.indeterminate = true;
+  } else if (colorMode.preference === 'dark') {
+    themeToggler.value.checked = true;
+  } else {
+    themeToggler.value.checked = false;
+  }
+});
+
+const toggleColorMode = () => {
+  if (colorMode.preference === 'system') {
+    themeToggler.value.checked = false;
+    colorMode.preference = 'light';
+  } else if (colorMode.preference === 'light') {
+    themeToggler.value.checked = true;
+    colorMode.preference = 'dark';
+  } else {
+    themeToggler.value.checked = false;
+    themeToggler.value.indeterminate = true;
+    colorMode.preference = 'system';
+  }
+};
+</script>
