@@ -48,7 +48,5 @@ export default {
     "after:bg-[url('title_shap2.png']",
   ],
   plugins: [daisyui],
-  daisyui: {
-    themes: true,
-  },
+  darkMode: 'class',
 };

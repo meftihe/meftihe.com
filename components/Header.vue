@@ -19,7 +19,7 @@
               development, product design, QA & consultancy services.
             </p>
             <h5
-              class="mt-8 font-bold text-base-100 relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
+              class="mt-8 font-bold text-white relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
             >
               Get Free Quote!
               <span class="font-normal ms-1">We’ll contact back in 24h</span>
@@ -41,7 +41,7 @@
                   <option>Greedo</option>
                 </select>
               </div>
-              <button class="btn btn-neutral btn-block rounded-full mt-4">
+              <button class="btn btn-secondary btn-block rounded-full mt-4">
                 <span>Request A Consultation</span>
               </button>
             </form>

@@ -72,7 +72,33 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <a class="btn btn-sm md:btn-md">Button</a>
+      <label class="swap swap-rotate">
+        <input
+          type="checkbox"
+          @change="toggleColorMode"
+          :checked="colorMode.preference === 'dark'"
+          aria-label="Toggle dark mode"
+        />
+
+        <Icon
+          name="material-symbols:wb-sunny-outline-rounded"
+          class="swap-on h-5 w-5"
+        />
+        <Icon
+          name="material-symbols:dark-mode-outline-rounded"
+          class="swap-off h-5 w-5"
+        />
+        <Icon name="ph:monitor-thin" class="swap-indeterminate h-5 w-5" />
+      </label>
     </div>
   </div>
 </template>
+
+<script setup>
+const colorMode = useColorMode();
+
+const toggleColorMode = (e) => {
+  const target = e.target;
+  colorMode.preference = target.checked ? 'dark' : 'light';
+};
+</script>

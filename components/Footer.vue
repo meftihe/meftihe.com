@@ -55,16 +55,13 @@
       <div class="mt-20 py-8 relative">
         <div class="flex flex-wrap">
           <div class="lg:basis-3/12 basis-6/12">
-            <div class="flex items-center w-32" href="#">
+            <div class="flex items-center" href="#">
               <img
                 src="/meftihe-logo-purple.svg"
                 width="40px"
                 alt="Gracesoft logo"
               />
-              <div class="ml-2">
-                <h5 class="font-bold leading-none">Meftihe</h5>
-                <span class="text-sm">IT Solutions</span>
-              </div>
+              <span class="leading-none"><b>Meftihe</b> IT Solutions</span>
             </div>
           </div>
           <div class="lg:basis-6/12 flex justify-center">
