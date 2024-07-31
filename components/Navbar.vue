@@ -27,6 +27,7 @@
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
         </ul>
       </div>
 
@@ -49,6 +50,7 @@
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
       </ul>
     </div>
     <div class="navbar-end">

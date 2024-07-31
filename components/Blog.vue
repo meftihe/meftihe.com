@@ -1,5 +1,5 @@
 <template>
-  <section class="py-24 relative bg-base-200" data-scroll-index="7">
+  <section class="py-24 relative bg-base-200" data-scroll-index="7" id="blog">
     <div class="px-4 lg:px-20">
       <div class="flex flex-col lg:flex-row justify-between">
         <div class="md:basis-5/12">
@@ -126,7 +126,11 @@
             :key="index"
           >
             <a href="#" class="block my-5">
-              <img :src="client" class="opacity-60 grayscale" alt="" />
+              <img
+                :src="client"
+                class="opacity-60 grayscale hover:grayscale-0"
+                alt=""
+              />
             </a>
           </div>
         </div>
