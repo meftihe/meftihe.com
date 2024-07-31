@@ -19,32 +19,14 @@
               development, digital marketing & consultancy services.
             </p>
             <h5
-              class="mt-8 font-bold text-white relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
+              class="mt-6 font-bold text-white relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"
             >
               Get Free Quote!
               <span class="font-normal ms-1">We’ll contact back in 24h</span>
             </h5>
-            <form action="contact.php" class="form mt-5" method="post">
-              <div class="flex space-x-2">
-                <label
-                  class="input input-bordered rounded-full flex items-center gap-2"
-                >
-                  <Icon
-                    name="uil:envelope"
-                    class="text-gray-400 w-5 h-5"
-                  ></Icon>
-                  <input type="text" class="grow" placeholder="Email" />
-                </label>
-                <select class="select select-bordered grow rounded-full">
-                  <option disabled selected>Who shot first?</option>
-                  <option>Han Solo</option>
-                  <option>Greedo</option>
-                </select>
-              </div>
-              <button class="btn btn-secondary btn-block rounded-full mt-4">
-                <span>Request A Consultation</span>
-              </button>
-            </form>
+            <button class="btn btn-secondary btn-block rounded-full mt-4">
+              <span>Request A Consultation</span>
+            </button>
           </div>
         </div>
       </div>
