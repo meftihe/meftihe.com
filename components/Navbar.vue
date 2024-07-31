@@ -26,8 +26,7 @@
         >
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a>Item 3</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </div>
 
@@ -49,7 +48,7 @@
       <ul class="menu menu-horizontal px-1 [&_li>*]:rounded-full space-x-1">
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a>Item 3</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
     </div>
     <div class="navbar-end">

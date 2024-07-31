@@ -8,13 +8,13 @@
             >Services</StyledSpan
           >
         </h3>
-        <NuxtLink
+        <!-- <NuxtLink
           to="#"
           class="inline-flex items-center text-muted ml-5 pl-5 mt-2"
         >
           See full services
           <Icon name="bi:chevron-right" size="20" class="ms-1"></Icon>
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
 
       <div class="flex flex-wrap lg:flex-nowrap gap-2 justify-between">

@@ -2,6 +2,7 @@
   <section
     class="py-24 bg-base-100 relative min-h-[500px]"
     data-scroll-index="3"
+    id="about"
   >
     <div class="flex flex-col lg:flex-row mb-24 pt-20">
       <div class="relative lg:basis-1/2 max-w-1/2 shrink">
@@ -24,7 +25,7 @@
           <div class="p-12 pr-16">
             <div class="mb-12">
               <h3 class="text-3xl font-medium capitalize">
-                Gracesoft’s
+                Meftihe's
                 <StyledSpan class="after:bg-[url('title_shap2.png')]"
                   >Mission & Vision</StyledSpan
                 >

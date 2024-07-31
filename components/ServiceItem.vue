@@ -9,10 +9,10 @@
         <div class="text-sm text-[#666]">
           {{ service?.details }}
         </div>
-        <NuxtLink to="#" class="inline-flex items-center">
+        <!-- <NuxtLink to="#" class="inline-flex items-center">
           <span class="text-sm font-medium uppercase">See projects</span>
           <Icon name="bi:chevron-right" class="ms-1"></Icon>
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
     </div>
   </div>
