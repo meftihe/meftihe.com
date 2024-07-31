@@ -66,8 +66,9 @@
           </div>
           <div class="lg:basis-6/12 flex justify-center">
             <small class="text-sm leading-relaxed inline-flex items-center">
-              <Icon name="solar:copyright-linear"></Icon> 2024
-              <a href="#" class="fw-bold ms-1 me-1">Gracesoft IT solutions.</a>
+              <Icon name="solar:copyright-linear"></Icon>
+              {{ new Date().getFullYear() }}
+              <a href="#" class="fw-bold ms-1 me-1">Meftihe IT solutions.</a>
               All rights reserved.
             </small>
           </div>

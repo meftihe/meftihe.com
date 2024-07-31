@@ -16,7 +16,7 @@
             </h1>
             <p class="mt-[40px] text-slate-300">
               We help businesses elevate their value through custom software
-              development, product design, QA & consultancy services.
+              development, digital marketing & consultancy services.
             </p>
             <h5
               class="mt-8 font-bold text-white relative before:content-[''] before:absolute before:-left-16 before:-bottom-2 before:w-12 before:h-24 before:bg-[url('head3_arrow.png')] before:bg-contain before:bg-no-repeat before:bg-center"

@@ -2,6 +2,7 @@
   <section
     class="-mt-8 rounded-tl-3xl rounded-tr-3xl relative bg-base-200 z-5"
     data-scroll-index="1"
+    id="testimonials"
   >
     <div class="px-8 lg:px-24">
       <div class="py-24">

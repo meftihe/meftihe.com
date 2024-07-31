@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-base-200 py-24" data-scroll-index="2">
+  <section class="bg-base-200 py-24" data-scroll-index="2" id="services">
     <div class="px-8 lg:px-24">
       <div class="flex items-center justify-between mb-12">
         <h3 class="text-3xl font-medium capitalize">
