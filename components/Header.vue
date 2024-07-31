@@ -8,10 +8,10 @@
         <div class="lg:w-5/12">
           <div class="info">
             <h1 class="text-5xl font-bold leading-tight text-white">
-              Make life easier with help from
+              Local expertise, global standards:
               <span
                 class="italic relative font-medium before:content-[''] before:absolute before:left-0 before:top-full before:w-40 before:h-[30px] before:bg-[url('infoh1line.png')] before:bg-160 before:bg-no-repeat before:bg-left"
-                >Meftihe</span
+                >Meftihe IT Solutions</span
               >
             </h1>
             <p class="mt-[40px] text-slate-300">
