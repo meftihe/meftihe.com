@@ -65,10 +65,7 @@
                 <div class="flex items-center gap-3 mt-8">
                   <div class="avatar">
                     <div class="mask mask-squircle h-12 w-12">
-                      <img
-                        :src="'_nuxt' + testimonial.image"
-                        :alt="testimonial.author"
-                      />
+                      <img :src="testimonial.image" :alt="testimonial.author" />
                     </div>
                   </div>
                   <div>
@@ -83,11 +80,7 @@
           </Swiper>
         </div>
       </div>
-      <img
-        src="~/assets/img/testimonials/testi3_lines.png"
-        alt=""
-        class="w-full"
-      />
+      <img src="/testimonials/testi3_lines.png" alt="" class="w-full" />
     </div>
   </section>
 </template>

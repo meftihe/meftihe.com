@@ -74,7 +74,7 @@
           </div>
         </div>
         <img
-          src="/assets/img/testimonials/testi3_lines.png"
+          src="/testimonials/testi3_lines.png"
           alt=""
           class="w-full absolute -top-2"
         />
