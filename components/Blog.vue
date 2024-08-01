@@ -137,7 +137,7 @@
       </div>
     </div>
     <img
-      src="/assets/img/blog/v_lines.png"
+      src="/blog/v_lines.png"
       alt=""
       class="hidden lg:block absolute top-24 left-1/2 h-[calc(100%-340px)] -translate-x-1/2"
     />
