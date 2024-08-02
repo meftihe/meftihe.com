@@ -12,13 +12,21 @@
             your very specific industry, we have highly-tailored IT solutions.
           </small>
           <div class="mt-7 flex space-x-2">
-            <a href="#" class="btn btn-circle btn-sm">
+            <a
+              href="https://www.facebook.com/meftiheitsolutions"
+              target="_blank"
+              class="btn btn-circle btn-sm"
+            >
               <Icon name="uil:facebook"></Icon>
             </a>
             <a href="#" class="btn btn-circle btn-sm">
               <Icon name="uil:linkedin"></Icon>
             </a>
-            <a href="#" class="btn btn-circle btn-sm">
+            <a
+              href="https://github.com/meftihe"
+              target="_blank"
+              class="btn btn-circle btn-sm"
+            >
               <Icon name="uil:github"></Icon>
             </a>
           </div>
