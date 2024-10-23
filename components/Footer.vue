@@ -4,7 +4,7 @@
       <div class="flex flex-wrap justify-between">
         <div class="lg:basis-3/12 basis-5/12">
           <div class="font-bold mb-7">
-            Gracesoft - 1st Choice for IT Solutions
+            Meftihe - 1st Choice for IT Solutions
           </div>
           <small class="text-xs">
             Over 25 years working in IT services developing software
@@ -59,15 +59,15 @@
               <img
                 src="/meftihe-logo-purple.svg"
                 width="40px"
-                alt="Gracesoft logo"
+                alt="Meftihe logo"
               />
               <span class="leading-none"><b>Meftihe</b> IT Solutions</span>
             </div>
           </div>
-          <div class="lg:basis-6/12 flex justify-center">
-            <small class="text-sm leading-relaxed inline-flex items-center">
-              <Icon name="solar:copyright-linear"></Icon> 2024
-              <a href="#" class="fw-bold ms-1 me-1">Gracesoft IT solutions.</a>
+          <div class="col-lg-6 d-flex justify-content-center">
+            <small class="small d-inline-flex align-items-center">
+              <Icon name="solar:copyright-linear"></Icon> 2023
+              <a href="#" class="fw-bold ms-1 me-1">Meftihe IT Solutions.</a>
               All rights reserved.
             </small>
           </div>
@@ -88,5 +88,5 @@
 </template>
 
 <script setup>
-import footerData from '../data/footer.json';
+import footerData from "../data/footer.json";
 </script>

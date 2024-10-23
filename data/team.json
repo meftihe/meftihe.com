@@ -1,8 +1,8 @@
 [
   {
     "picture": "_nuxt/assets/img/team/1.jpeg",
-    "name": "Michael Edwards",
-    "position": "CEO Founder"
+    "name": "Wuletaw Wonte",
+    "position": "Founder & CTO"
   },
   {
     "picture": "_nuxt/assets/img/team/2.jpeg",
@@ -25,3 +25,4 @@
     "position": "Creative Director"
   }
 ]
+
