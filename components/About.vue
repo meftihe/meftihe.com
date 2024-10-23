@@ -36,15 +36,14 @@
               powerful they are."
             </Blockquote>
             <div class="text mb-7">
-              Gracesoft Co is the partner of choice for many of the world’s
+              Meftihe Co is the partner of choice for many of the world’s
               leading enterprises, SMEs and technology challengers. We help
               businesses elevate their value through custom software
               development, product design, QA and consultancy services.
             </div>
             <div class="text mb-7">
-              Gracesoft specializes in technological and IT-related services
-              such as product engineering, warranty management, building cloud,
-              etc.
+              Meftihe specializes in technological and IT-related services such
+              as product engineering, warranty management, building cloud, etc.
             </div>
             <NuxtLink to="#" class="btn rounded-full btn-primary">
               <span>More About Us</span>
@@ -57,7 +56,7 @@
       <div class="lg:basis-1/2 p-12">
         <div class="mb-12">
           <h3 class="text-3xl font-medium capitalize">
-            Gracesoft’s
+            Meftihe’s
             <StyledSpan class="after:bg-[url('title_shap1.png')]"
               >Technology</StyledSpan
             >
@@ -95,5 +94,5 @@
 </template>
 
 <script setup>
-import aboutData from '../data/about.json';
+import aboutData from "../data/about.json";
 </script>

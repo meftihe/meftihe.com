@@ -7,7 +7,7 @@
       <Services />
       <About />
       <Projects />
-      <Team />
+      <!-- <Team /> -->
       <Blog />
       <ChatBanner />
     </main>

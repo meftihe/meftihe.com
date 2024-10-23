@@ -4,12 +4,12 @@
       <div class="flex flex-wrap justify-between">
         <div class="lg:basis-3/12 basis-5/12">
           <div class="font-bold mb-7">
-            Gracesoft - 1st Choice for IT Solutions
+            Meftihe - 1st Choice for IT Solutions
           </div>
           <small class="text-xs">
-            Over 25 years working in IT services developing software
-            applications and mobile apps for clients all over the world. For
-            your very specific industry, we have highly-tailored IT solutions.
+            Over 8 years working in IT services developing software applications
+            and mobile apps for clients all over the world. For your very
+            specific industry, we have highly-tailored IT solutions.
           </small>
           <div class="mt-7 flex space-x-2">
             <a
@@ -97,5 +97,5 @@
 </template>
 
 <script setup>
-import footerData from '../data/footer.json';
+import footerData from "../data/footer.json";
 </script>

@@ -6,7 +6,7 @@
           <div class="px-2">
             <div class="inline-flex items-center gap-20 mb-12">
               <h3 class="text-3xl font-medium capitalize">
-                Gracesoft’s
+                Meftihe’s
                 <StyledSpan
                   class="after:bg-[url('title_shap1.png')] after:-bottom-5"
                   >Journal</StyledSpan
@@ -145,5 +145,5 @@
 </template>
 
 <script setup>
-import data from '../data/blog.json';
+import data from "../data/blog.json";
 </script>
