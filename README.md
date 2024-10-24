@@ -1,75 +1,54 @@
-# Nuxt 3 Minimal Starter
+# meftihe.com
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Meftihe.com is a minimalistic website built with the powerful Vue.js framework, [Nuxt.js](https://nuxt.com). It leverages the [Jamstack approach](https://jamstack.org), ensuring lightning-fast performance and scalability by pre-rendering static content at build time. Continuous deployment through Github Actions streamlines updates and keeps the site fresh.
 
-## Setup
+## Live version
 
-Make sure to install the dependencies:
+[meftihe.com](https://meftihe.com/).
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Get started
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+   git clone https://github.com/meftihe/meftihe.com.git
+   cd into the folder by typing: cd meftihe.com
 ```
 
-## Production
+:heavy_plus_sign: add your contribution if you'd like
+And please feel free to make a PR
 
-Build the application for production:
+## Technology
 
-```bash
-# npm
-npm run build
+- Nuxt
+- Vue
+- yarn
+- SSG
 
-# pnpm
-pnpm run build
+## Authors
 
-# yarn
-yarn build
+#### :bust_in_silhouette: Wuletaw Wonte
 
-# bun
-bun run build
-```
+- [wuletawwonte](https://github.com/wuletawwonte)
+- [LinkedIn](https://www.linkedin.com/in/wuletawwonte/).
+- [Twitter](https://twitter.com/wuletawwonte)
 
-Locally preview production build:
+## Acknowledgments
 
-```bash
-# npm
-npm run preview
+- Hat tip to anyone whose code was used
 
-# pnpm
-pnpm run preview
+## 🤝 Contributing
 
-# yarn
-yarn preview
+All contributions, issues and feature requests are welcome!
 
-# bun
-bun run preview
-```
+1. Fork it (<https://github.com/meftihe/meftihe.com.git>)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Show your support
+
+Give a :star: if you liked the app
+
+# License
+
+This project is [MIT](LICENSE.md) licensed.
