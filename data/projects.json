@@ -1,22 +1,23 @@
 [
   {
-    "image": "/projects/3.png",
-    "title": "Catty Boxes NFT Blockchain",
-    "description": "Game Development"
+    "image": "/projects/amuwebsite.jpg",
+    "title": "Arba Minch University Website",
+    "description": "Website Building"
   },
   {
-    "image": "/projects/4.png",
-    "title": "Catty Boxes NFT Blockchain",
-    "description": "Game Development"
+    "image": "/projects/4.jpg",
+    "title": "Global Covid Information Tracker",
+    "description": "App Development"
   },
   {
-    "image": "/projects/5.png",
-    "title": "Catty Boxes NFT Blockchain",
-    "description": "Game Development"
+    "image": "/projects/churchmanagement.jpg",
+    "title": "Church Information Management System",
+    "description": "Software Development"
   },
   {
-    "image": "/projects/6.png",
-    "title": "Catty Boxes NFT Blockchain",
-    "description": "Game Development"
+    "image": "/projects/6.jpg",
+    "title": "Ethresale",
+    "description": "Webapp Development"
   }
 ]
+
