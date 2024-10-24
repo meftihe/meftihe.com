@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - "main"
+name: 🚀 Build and Deploy Project
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Build project
+        run: yarn install && yarn generate
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.wuletawwonte.com
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: meftihe.com/
+          local-dir: .output/public/
