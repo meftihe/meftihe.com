@@ -67,7 +67,7 @@
               <img
                 src="/meftihe-logo-purple.svg"
                 width="40px"
-                alt="Gracesoft logo"
+                alt="Meftihe logo"
               />
               <span class="leading-none"><b>Meftihe</b> IT Solutions</span>
             </div>
