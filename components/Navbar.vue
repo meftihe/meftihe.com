@@ -24,15 +24,10 @@
           tabindex="0"
           class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
         >
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
-          <li><a>Item 3</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
         </ul>
       </div>
 
@@ -52,23 +47,10 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1 [&_li>*]:rounded-full space-x-1">
-        <li class="hover:bg-base-200 rounded-full">
-          <a>Item 1</a>
-        </li>
-        <li>
-          <details>
-            <summary
-              class="rounded-full hover:bg-base-200 hover:text-base-content"
-            >
-              Parent
-            </summary>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-        <li class="hover:bg-base-200 rounded-full"><a>Item 3</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
       </ul>
     </div>
     <div class="navbar-end">

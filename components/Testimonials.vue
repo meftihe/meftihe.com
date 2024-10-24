@@ -2,17 +2,18 @@
   <section
     class="-mt-8 rounded-tl-3xl rounded-tr-3xl relative bg-base-200 z-5"
     data-scroll-index="1"
+    id="testimonials"
   >
     <div class="px-8 lg:px-24">
       <div class="py-24">
         <div class="flex items-center justify-between mb-12 pr-4">
           <h3 class="text-3xl font-medium capitalize">
-            Loved By Thousand
+            Loved By Our
             <StyledSpan class="after:bg-[url('title_shap1.png')]"
               >Clients</StyledSpan
             >
           </h3>
-          <div class="space-x-1 shrink-0">
+          <!-- <div class="space-x-1 shrink-0">
             <button class="btn btn-circle bg-white btn-sm">
               <Icon
                 name="material-symbols:chevron-left"
@@ -25,7 +26,7 @@
                 class="w-4 h-4 text-primary"
               />
             </button>
-          </div>
+          </div> -->
         </div>
         <div class="testimonial-slider style-3">
           <Swiper
@@ -48,7 +49,7 @@
               480: { slidesPerView: 1 },
               787: { slidesPerView: 2 },
               991: { slidesPerView: 2 },
-              1200: { slidesPerView: 3 },
+              1200: { slidesPerView: 2 },
             }"
             class="swiper-container"
           >
@@ -64,10 +65,7 @@
                 <div class="flex items-center gap-3 mt-8">
                   <div class="avatar">
                     <div class="mask mask-squircle h-12 w-12">
-                      <img
-                        :src="'_nuxt' + testimonial.image"
-                        :alt="testimonial.author"
-                      />
+                      <img :src="testimonial.image" :alt="testimonial.author" />
                     </div>
                   </div>
                   <div>
@@ -82,11 +80,7 @@
           </Swiper>
         </div>
       </div>
-      <img
-        src="~/assets/img/testimonials/testi3_lines.png"
-        alt=""
-        class="w-full"
-      />
+      <img src="/testimonials/testi3_lines.png" alt="" class="w-full" />
     </div>
   </section>
 </template>

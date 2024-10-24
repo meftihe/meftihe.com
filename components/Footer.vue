@@ -7,18 +7,26 @@
             Meftihe - 1st Choice for IT Solutions
           </div>
           <small class="text-xs">
-            Over 25 years working in IT services developing software
-            applications and mobile apps for clients all over the world. For
-            your very specific industry, we have highly-tailored IT solutions.
+            Over 8 years working in IT services developing software applications
+            and mobile apps for clients all over the world. For your very
+            specific industry, we have highly-tailored IT solutions.
           </small>
           <div class="mt-7 flex space-x-2">
-            <a href="#" class="btn btn-circle btn-sm">
+            <a
+              href="https://www.facebook.com/meftiheitsolutions"
+              target="_blank"
+              class="btn btn-circle btn-sm"
+            >
               <Icon name="uil:facebook"></Icon>
             </a>
             <a href="#" class="btn btn-circle btn-sm">
               <Icon name="uil:linkedin"></Icon>
             </a>
-            <a href="#" class="btn btn-circle btn-sm">
+            <a
+              href="https://github.com/meftihe"
+              target="_blank"
+              class="btn btn-circle btn-sm"
+            >
               <Icon name="uil:github"></Icon>
             </a>
           </div>
@@ -64,16 +72,17 @@
               <span class="leading-none"><b>Meftihe</b> IT Solutions</span>
             </div>
           </div>
-          <div class="col-lg-6 d-flex justify-content-center">
-            <small class="small d-inline-flex align-items-center">
-              <Icon name="solar:copyright-linear"></Icon> 2023
-              <a href="#" class="fw-bold ms-1 me-1">Meftihe IT Solutions.</a>
+          <div class="lg:basis-6/12 flex justify-center">
+            <small class="text-sm leading-relaxed inline-flex items-center">
+              <Icon name="solar:copyright-linear"></Icon>
+              {{ new Date().getFullYear() }}
+              <a href="#" class="fw-bold ms-1 me-1">Meftihe IT solutions.</a>
               All rights reserved.
             </small>
           </div>
         </div>
         <img
-          src="/assets/img/testimonials/testi3_lines.png"
+          src="/testimonials/testi3_lines.png"
           alt=""
           class="w-full absolute -top-2"
         />

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-base-200 py-24" data-scroll-index="2">
+  <section class="bg-base-200 py-24" data-scroll-index="2" id="services">
     <div class="px-8 lg:px-24">
       <div class="flex items-center justify-between mb-12">
         <h3 class="text-3xl font-medium capitalize">
@@ -8,13 +8,13 @@
             >Services</StyledSpan
           >
         </h3>
-        <NuxtLink
+        <!-- <NuxtLink
           to="#"
           class="inline-flex items-center text-muted ml-5 pl-5 mt-2"
         >
           See full services
           <Icon name="bi:chevron-right" size="20" class="ms-1"></Icon>
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
 
       <div class="flex flex-wrap lg:flex-nowrap gap-2 justify-between">
