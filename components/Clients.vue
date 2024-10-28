@@ -6,9 +6,9 @@
         v-for="(client, index) in data.clients"
         :key="index"
       >
-        <a href="#" class="block my-5">
+        <a :href="client.target" class="my-5 flex items-center justify-center">
           <img
-            :src="client"
+            :src="client.image"
             class="opacity-60 grayscale hover:grayscale-0"
             alt=""
           />

@@ -54,11 +54,34 @@
     }
   ],
   "clients": [
-    "/logos/1.png",
-    "/logos/2.png",
-    "/logos/3.png",
-    "/logos/4.png",
-    "/logos/5.png",
-    "/logos/6.png"
+    {
+      "image": "/logos/1.png",
+      "target": "https://google.com"
+    },
+    {
+      "image": "/logos/2.png",
+      "target": "https://google.com"
+    },
+    {
+      "image": "/logos/3.png",
+      "target": "https://google.com"
+    },
+    {
+      "image": "/logos/4.png",
+      "target": "https://google.com"
+    },
+    {
+      "image": "/logos/5.png",
+      "target": "https://google.com"
+    },
+    {
+      "image": "/logos/6.png",
+      "target": "https://google.com"
+    },
+    {
+      "image": "/logos/7.png",
+      "target": "https://google.com"
+    }
   ]
 }
+
