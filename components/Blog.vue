@@ -22,11 +22,15 @@
                 ></Icon>
               </NuxtLink>
             </div>
+            <div v-if="data == null">
+              <h2>No articles found</h2>
+            </div>
             <div
+              v-else
               :class="`flex flex-col gap-4 md:gap-0 md:flex-row ${
-                i !== data.blogs.length - 1 ? 'border-b border-gray-300' : ''
+                i !== data.length - 1 ? 'border-b border-gray-300' : ''
               } pb-6 mb-6`"
-              v-for="(post, i) in data.blogs"
+              v-for="(post, i) in data"
               :key="i"
             >
               <div class="md:basis-4/12">
@@ -53,7 +57,7 @@
                     <h6
                       class="text-lg font-bold max-w-[85%] my-2 hover:text-primary leading-6"
                     >
-                      <NuxtLink to="#">{{ post.title }}</NuxtLink>
+                      <NuxtLink to="#">{{ post.title.rendered }}</NuxtLink>
                     </h6>
                   </div>
                   <div class="flex align-items-center justify-between">
@@ -118,23 +122,7 @@
           </NuxtLink>
         </div>
       </div>
-      <div class="mt-24">
-        <div class="flex flex-wrap items-center">
-          <div
-            class="basis-1/2 lg:basis-2/12"
-            v-for="(client, index) in data.clients"
-            :key="index"
-          >
-            <a href="#" class="block my-5">
-              <img
-                :src="client"
-                class="opacity-60 grayscale hover:grayscale-0"
-                alt=""
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+      <Clients />
     </div>
     <img
       src="/blog/v_lines.png"
@@ -145,5 +133,9 @@
 </template>
 
 <script setup>
-import data from "../data/blog.json";
+// import data from "../data/blog.json";
+
+const data = await $fetch("https://wp.meftihe.com/wp-json/wp/v2/posts");
+
+console.log(data);
 </script>
