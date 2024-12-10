@@ -29,6 +29,13 @@
             >
               <Icon name="uil:github"></Icon>
             </a>
+            <a
+              href="https://t.me/meftihesolutions"
+              target="_blank"
+              class="btn btn-circle btn-sm"
+            >
+              <Icon name="uil:telegram"></Icon>
+            </a>
           </div>
         </div>
         <div class="lg:basis-3/12 basis-6/12">
